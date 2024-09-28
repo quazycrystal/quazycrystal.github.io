@@ -12,27 +12,29 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin    :  "default"
+#skin: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+title                    : "Jiwon Kim"
+title_separator          : "|"
+#subtitle                : # site tagline that appears below site title in masthead
+name                     : "Jiwon Kim"
+description              : "Innovative Experience Maker"
+url                      : "https://quazycrystal.github.io/"
+#baseurl                 : # the subpath of your site, e.g. "/blog"
+repository               : Quazycrystal
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true # false 
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+enable_copy_code_button  : false # true, 
+copyright                : Jiwon Kim # "copyright" name, defaults to site.title
+copyright_url            : "https://quazycrystal.github.io/" # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -95,12 +97,13 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  
+og_image                 : "/assets/img/og-image.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person #Organization (defaults to Person)
+  name                   : Jiwon Kim # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -113,53 +116,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jiwon Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
+  bio              : "Innovative Experience Maker"
+  location         : "South Korea, Daejeon"
+  email            : "quazycrystal@gmail.com"
+ 
 # Site Footer
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+   links:
+    - label: "LinkedIn"
+      icon: "/assets/img/icons/linkedin.png"
+      url: "https://linkedin.com/in/jiwonkim-art-audio-design"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      icon: "/assets/img/icons/github.png"
+      url: "https://github.com/quazycrystal"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
+      icon: "/assets/img/icons/instagram.png"
+      url: "https://www.instagram.com/quazycrystal/"
 
 # Reading Files
 include:
@@ -226,7 +200,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /works/:title/
+# permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -285,21 +260,23 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /works/
+#  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /works/:name/
+#    category: /categories/:name/
+     tag: /tags/:name/
 
 
 # HTML Compression
