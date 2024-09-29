@@ -271,11 +271,10 @@ jekyll-archives:
      - categories
      - tags
    layouts:
-     category: archive-taxonomy
+     categories: archive-taxonomy
      tag: archive-taxonomy
    permalinks:
-     category: /works/:name/
-#    category: /categories/:name/
+     category: /categories/:name/
      tag: /tags/:name/
 
 
@@ -289,14 +288,17 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _posts:
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
+      show_date: # true
+      # date_format: "%Y-%m-%d"
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#reading-files

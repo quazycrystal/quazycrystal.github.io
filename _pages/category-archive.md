@@ -1,7 +1,7 @@
 ---
-title: "Works"
+title: "Categories"
 layout: categories
-permalink: /works/
+permalink: /categories/
 author_profile: true
 #sidebar_main: true
 ---
