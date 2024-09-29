@@ -8,3 +8,5 @@ main:
     url: /works/
   - title: "Geeks"
     url: /geeks/
+  - title: <i class="fa-duotone fa-solid fa-magnifying-glass"></i>
+    url: /search/

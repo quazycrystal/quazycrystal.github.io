@@ -1,6 +1,7 @@
 ---
 title: Geeks
 layout: archive
+classes: wide
 permalink: /geeks/
 entries_layout: list # posts layout
 ---

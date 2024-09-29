@@ -21,6 +21,7 @@
     margin-top: 2em;
     max-width: 100%;
     padding: 0 1em 2em;
+    
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -46,9 +47,10 @@
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
 }
 
+/*
 .page__footer-follow {
   ul {
     margin: 0;
@@ -67,7 +69,7 @@
 
   li + li::before {
     content: "";
-    padding-inline-end: 5px;
+    padding-inline-end: s5px;
   }
 
   a {
@@ -80,4 +82,10 @@
       white-space: normal //nowrap;
     }
   }
+}
+*/
+
+/* .footer links (footer SNS icons) */
+div.footer-links a>img {
+  margin-left: 10px;
 }

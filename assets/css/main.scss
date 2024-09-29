@@ -5,7 +5,5 @@ search: false
 
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap'); //global font
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-$global-font-family: "bitter", sans-serif;

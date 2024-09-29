@@ -125,15 +125,19 @@ author:
 # Site Footer
 footer:
    links:
+    - label: "E-mail"
+      icon: "/assets/img/icons/email.png"
+      url: mailto:quazycrystal@gmail.com
     - label: "LinkedIn"
       icon: "/assets/img/icons/linkedin.png"
       url: "https://linkedin.com/in/jiwonkim-art-audio-design"
-    - label: "GitHub"
+    - label: "Github"
       icon: "/assets/img/icons/github.png"
       url: "https://github.com/quazycrystal"
     - label: "Instagram"
       icon: "/assets/img/icons/instagram.png"
       url: "https://www.instagram.com/quazycrystal/"
+
 
 # Reading Files
 include:
