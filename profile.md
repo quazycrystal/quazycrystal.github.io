@@ -4,7 +4,7 @@ layout: default
 permalink: /profile/
 ---
 <body oncontextmenu="return false;">
-</body>
+git 
 
 <!-- self profile picture: html-->
 <img src="assets/img/jiwon-kim.jpg" width="300px" height="300px"> 
