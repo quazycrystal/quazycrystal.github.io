@@ -4,10 +4,11 @@ layout: default
 permalink: /profile/
 ---
 <body oncontextmenu="return false;">
-git 
+</body>
 
-<!-- self profile picture: html-->
-<img src="assets/img/jiwon-kim.jpg" width="300px" height="300px"> 
+<!-- self profile picture: html
+<img src ="http://localhost:4000/profile/">
+<img src="./assets/img/jiwon-kim.jpg" width="300px" height="300px">  -->
 
 <span style = "font-size: 20px; font-weight: 700;"> 
 Jiwon Kim | Innovation Maker
