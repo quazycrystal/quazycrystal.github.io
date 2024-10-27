@@ -3,6 +3,7 @@ title: Profile
 layout: default
 permalink: /profile/
 ---
+<body oncontextmenu="return false;">
 Name: Jiwon Kim
 
 Profile
@@ -76,3 +77,4 @@ Art teacher at Hongik University Middle School, Seoul, South Korea
 May 2021 — December 2021
 Explained creative artist's works, demonstrated art using various
 medium, and engaged student's interest in art
+</body>

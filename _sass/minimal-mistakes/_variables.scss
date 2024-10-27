@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 14px !default;
+$doc-font-size: 13px !default;
 $doc-font-size-medium: $doc-font-size * 1.125 !default;
 $doc-font-size-large: $doc-font-size * 1.25 !default;
 $doc-font-size-x-large: $doc-font-size * 1.375 !default;
@@ -32,9 +32,10 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: "Bitter", sans-serif;//$sans-serif !default;
-$header-font-family: "Bitter", sans-serif;//$sans-serif !default;
-$caption-font-family:"Bitter", sans-serif;//$serif !default;
+$global-font-family: "poppins", Helvetica, Arial, sans-serif;//$sans-serif !default;
+$header-font-family: "poppins", Helvetica, Arial, sans-serif;//$sans-serif !default;
+$caption-font-family: "poppins", Helvetica, Arial, sans-serif;//$sans-serif !default;
+//"Bitter", sans-serif; $serif !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px

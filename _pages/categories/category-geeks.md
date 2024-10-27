@@ -4,6 +4,7 @@ layout: archive
 permalink: /geeks/
 entries_layout: list # posts layout
 ---
+<body oncontextmenu="return false;">
 Mischievous and nebulous thoughts
 
 {% include geeks-tag.html tag= site.tags %}
@@ -16,3 +17,4 @@ Mischievous and nebulous thoughts
 {% endfor %}
 </ul>
 <br/>
+</body>

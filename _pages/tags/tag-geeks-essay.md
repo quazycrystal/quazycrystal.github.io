@@ -6,6 +6,7 @@ entries_layout: list # posts layout (list/grid)
 #author_profile: true
 #sidebar_main: true
 ---
+<body oncontextmenu="return false;">
 {% assign tag = "Essay" %} <!--tag name-->
 {% assign posts = site.categories.Geeks %}
   <ul> 
@@ -15,3 +16,4 @@ entries_layout: list # posts layout (list/grid)
     {% endif %}
   {% endfor %}
   </ul>
+</body>

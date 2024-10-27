@@ -4,7 +4,7 @@ layout: archive
 permalink: /works/
 entries_layout: grid # posts layout
 ---
-
+<body oncontextmenu="return false;">
 Everything you can imagine
 
 {% include works-tag.html tag= site.tags %}
@@ -16,3 +16,4 @@ Everything you can imagine
       {% include archive-single.html type=page.entries_layout %} 
   {% endfor %}
 </ul>
+</body>
