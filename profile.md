@@ -1,6 +1,6 @@
 ---
 title: Profile
-layout: default
+layout: posts
 permalink: /profile/
 ---
 <body oncontextmenu="return false;">

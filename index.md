@@ -1,8 +1,8 @@
 ---
-layout: home
-profile_picture:
-  src: /assets/img/profile-pic.png
-  alt: website picture
+layout: posts
+# profile_picture:
+#   src: /assets/img/profile-pic.png
+#   alt: website picture
 ---
 <body oncontextmenu="return false;">
 <p>
