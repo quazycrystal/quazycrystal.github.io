@@ -3,15 +3,11 @@ title: Profile
 layout: posts
 permalink: /profile/
 ---
-<body oncontextmenu="return false;">
-<!-- self profile picture: html
-<img src ="http://localhost:4000/profile/">
-<img src="./assets/img/jiwon-kim.jpg" width="300px" height="300px">  -->
-
 <span style = "font-size: 20px; font-weight: 700;"> 
 Jiwon Kim | Innovation Maker
 </span>
-<br>
+
+<img src="/assets/img/jiwon-kim.png" style="width:300px; height:auto;" alt="Description of image"> 
 
 <span style = "font-size: 18px; font-weight: 700;"> 
 Education
@@ -164,9 +160,9 @@ Fusion 360, Rhino, and 3D MAX
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;">
-*Game / VR making 𒊹𒊹𒊹*
+*Programming 𒊹𒊹𒊹*
 </span>  
-Unity and Python
+Python and front-end
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;">

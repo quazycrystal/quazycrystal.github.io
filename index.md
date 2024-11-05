@@ -4,13 +4,11 @@ layout: posts
 #   src: /assets/img/profile-pic.png
 #   alt: website picture
 ---
-<body oncontextmenu="return false;">
-<figure>
-  <img data-action="zoom" src='{{ "/assets/img/home.png" | relative_url }}' alt='absolute'>
-  <!-- <figcaption>home</figcaption> -->
-</figure>
+
+<img src="/assets/img/home.png" style="width:auto; height:auto;" alt="Description of image"> 
+
 <p>
- She is a committed maker who creates various types of work, including installation art, jewelry, and Audio systems. Her study is focused on how people interact with her creations.
+ She is a committed maker who creates various types of work, including installation art, jewelry, and audio systems. Her study is focused on how people interact with her creations.
 </p>
 
 <p>
@@ -24,4 +22,3 @@ layout: posts
 <p>
  Her unique designs, resulting from her dedication to craftsmanship, are a testament to her creativity and innovation. 
 </p>
-</body>
