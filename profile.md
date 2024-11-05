@@ -4,8 +4,6 @@ layout: posts
 permalink: /profile/
 ---
 <body oncontextmenu="return false;">
-</body>
-
 <!-- self profile picture: html
 <img src ="http://localhost:4000/profile/">
 <img src="./assets/img/jiwon-kim.jpg" width="300px" height="300px">  -->
@@ -190,6 +188,7 @@ Languages
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;">
+*Korean - Mother language 𒊹𒊹𒊹𒊹𒊹*  
 *English 𒊹𒊹𒊹𒊹𒊹*  
 *Japanese (Speaking) 𒊹𒊹𒊹𒊹*
 </span> 

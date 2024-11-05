@@ -20,7 +20,7 @@
     margin-inline: auto;
     margin-top: 2em;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0px 1em 2em;
     
 
     @include breakpoint($x-large) {
@@ -43,12 +43,26 @@
   .fal {
     color: $muted-text-color;
   }
-}
 
-.page__footer-copyright {
-  //footer-copyright indentation
-  font-family: $global-font-family;
-  font-size: $type-size-5;
+  .page__footer-copyright {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  //   //footer-copyright indentation
+  //   font-family: $global-font-family;
+  //   font-size: $type-size-5;
+  //   // padding-left: 200px;/
+  //   @include clearfix;
+  //   margin-inline: auto;
+  //   margin-top: 2em;
+  //   max-width: 100%;
+  //   padding: 0px 1em 2em;s
+    
+
+  //   @include breakpoint($x-large) {
+  //     max-width: $x-large;
+  //   }
+  // }
 }
 
 /*
