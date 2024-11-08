@@ -1,6 +1,6 @@
 ---
-title: "Heart"
-permalink: /works/heart
+title: "Heartache"
+permalink: /works/heartache
 layout: posts-works
 categories: "Works"
 tags:
