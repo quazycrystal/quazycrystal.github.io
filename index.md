@@ -5,7 +5,7 @@ layout: posts
 #   alt: website picture
 ---
 
-<img src="/assets/img/home.png" style="width:auto; height:auto;" alt="Description of image"> 
+<img src="/assets/img/home.png" style="width:auto; height:auto;" alt="home"> 
 
 <p>
  She is a committed maker who creates various types of work, including installation art, jewelry, and audio systems. Her study is focused on how people interact with her creations.

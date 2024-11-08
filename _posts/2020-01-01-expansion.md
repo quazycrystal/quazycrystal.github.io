@@ -1,7 +1,7 @@
 ---
-title: "Sysiphus"
-permalink: /works/art/sysiphus
-layout: posts
+title: "Expansion"
+permalink: /works/expansion
+layout: posts-works
 categories: "Works"
 tags:
 - Art

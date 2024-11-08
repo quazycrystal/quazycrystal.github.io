@@ -1,9 +1,10 @@
 ---
-title: "Run"
-permalink: /works/art/run
-layout: posts
+title: "Sonar chest"
+permalink: /works/sonar-chest
+layout: posts-works
 categories: "Works"
 tags:
-- Art
+- Audio
+- Programming
 ---
 2021

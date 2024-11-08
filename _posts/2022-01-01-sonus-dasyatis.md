@@ -1,10 +1,11 @@
 ---
 title: "Sonus dasyatis"
-permalink: /works/art/sonus-dasyatis
+permalink: /works/sonus-dasyatis
 layout: posts-works
 categories: "Works"
 tags:
 - Art
 - Audio
+- Programming
 ---
 2022
