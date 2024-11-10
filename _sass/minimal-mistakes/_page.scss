@@ -268,6 +268,94 @@ body {
   }
 }
 
+/* ==========================================================================
+   CAROUSEL
+   ========================================================================== */
+   $border-radius: 5px; // Adjust the roundness of the corners
+   $thumbnail-hover-scale: 1.1; // Scale factor for thumbnail hover effect
+   $total-slides: 9; // Adjust this number based on the maximum number of slides in your template
+   
+   section {
+     padding: 0;
+     display: flex;
+     justify-content: center;
+   }
+   
+   .carousel {
+     width: 95%;
+     text-align: center;
+   }
+   
+   .carousel__slides {
+     display: flex;
+     padding-top: 2em;
+     overflow: hidden;
+     border-radius: $border-radius; // Apply rounded corners to main slide area
+     transition: margin-left 0.5s ease-in-out;
+   }
+   
+   .carousel__slide {
+     flex: 0 0 100%;
+     overflow: hidden;
+     border-radius: $border-radius; // Apply rounded corners to each slide
+     display: flex;
+     flex-direction: column;
+   
+     img {
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+       border-radius: inherit; // Inherit rounded corners from parent
+     }
+   
+     figcaption {
+       padding: 10px;
+       text-align: middle;
+     }
+   }
+   
+   .carousel__thumbnails {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     margin-top: 20px;
+   }
+   
+   .carousel__thumbnails a {
+     display: block;
+     width: 75px;
+     height: 75px;
+     overflow: hidden;
+     border-radius: $border-radius; // Apply rounded corners to each thumbnail
+     transition: transform 0.3s ease, box-shadow 0.3s ease; // Smooth transition for hover effect
+   
+     &:hover {
+       transform: scale($thumbnail-hover-scale); // Scale up on hover
+       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); // Add shadow on hover
+     }
+   
+     img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       border-radius: inherit; // Ensure image respects the rounded corners
+     }
+   }
+   
+   /* Dynamic slide targeting and positioning */
+   @for $i from 1 through $total-slides {
+     #slide#{$i}:target ~ .carousel__slides {
+       margin-left: calc(-#{$i - 1} * 100%);
+     }
+   
+     /* Highlight the active thumbnail for each targeted slide */
+     #slide#{$i}:target ~ .carousel__thumbnails a:nth-of-type(#{$i}) {
+       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); // Shadow for active thumbnail
+       transform: scale($thumbnail-hover-scale); // Keep scaled size for active thumbnail
+     }
+   }
+   
+                     
 /*
    Social sharing
    ========================================================================== */
