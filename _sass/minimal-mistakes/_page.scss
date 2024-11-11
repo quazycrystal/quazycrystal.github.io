@@ -273,9 +273,10 @@ body {
    ========================================================================== */
    $border-radius: 5px; // Adjust the roundness of the corners
    $thumbnail-hover-scale: 1.1; // Scale factor for thumbnail hover effect
-   $total-slides: 9; // Adjust this number based on the maximum number of slides in your template
+   $total-slides: 15; // Adjust this number based on the maximum number of slides in your template
    
    section {
+     //background: #f4f4f4;
      padding: 0;
      display: flex;
      justify-content: center;
@@ -284,6 +285,7 @@ body {
    .carousel {
      width: 95%;
      text-align: center;
+     overflow: hidden; // Ensure no overflow is visible outside the container
    }
    
    .carousel__slides {
@@ -291,11 +293,10 @@ body {
      padding-top: 2em;
      overflow: hidden;
      border-radius: $border-radius; // Apply rounded corners to main slide area
-     transition: margin-left 0.5s ease-in-out;
    }
    
    .carousel__slide {
-     flex: 0 0 100%;
+     flex: 0 0 100.5%; //hmmmmmmmmmmmmmmmm... figure out!
      overflow: hidden;
      border-radius: $border-radius; // Apply rounded corners to each slide
      display: flex;
@@ -309,7 +310,7 @@ body {
      }
    
      figcaption {
-       padding: 10px;
+       padding: 15px;
        text-align: middle;
      }
    }
@@ -341,20 +342,17 @@ body {
        border-radius: inherit; // Ensure image respects the rounded corners
      }
    }
-   
    /* Dynamic slide targeting and positioning */
-   @for $i from 1 through $total-slides {
-     #slide#{$i}:target ~ .carousel__slides {
-       margin-left: calc(-#{$i - 1} * 100%);
-     }
-   
+    @for $i from 1 through $total-slides {
+      #slide#{$i}:target ~ .carousel__slides {
+        margin-left: calc(-#{$i - 1} * 100%); // Use percentage to shift each slide horizontally
+      }
      /* Highlight the active thumbnail for each targeted slide */
      #slide#{$i}:target ~ .carousel__thumbnails a:nth-of-type(#{$i}) {
        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); // Shadow for active thumbnail
        transform: scale($thumbnail-hover-scale); // Keep scaled size for active thumbnail
      }
-   }
-   
+    }
                      
 /*
    Social sharing
