@@ -1,10 +1,10 @@
 ---
 title: "Dark light"
-permalink: /geeks/dark-light
+permalink: /works/dark-light
 layout: posts-works
 categories: "Works"
 header:
-    teaser: /assets/img/2023-dark-light/a.png
+    teaser: https://drive.google.com/file/d/1ZQvQmb_dmDWnOXcnHXx8-q7TnKi3bkk8/view?usp=drive_link
 tags:
 - Art
 --- 
@@ -13,7 +13,7 @@ tags:
 <Dark light, 2023> series consists of 10 artworks.
 Strong contrast of light and shadow is shown.
 
-<section>
+<!-- <section>
     <div class="carousel">
         <div class="carousel__thumbnails">
             <a href="#slide1"><img src="/assets/img/2023-dark-light/aq.png" width="75" height="75" alt="Thumbnail 1"></a>
@@ -70,4 +70,4 @@ Strong contrast of light and shadow is shown.
             </div>
         </div>
     </div>
-</section>
+</section> -->
