@@ -4,7 +4,7 @@ permalink: /works/dark-light
 layout: posts-works
 categories: "Works"
 header:
-    teaser: https://drive.google.com/file/d/1ZQvQmb_dmDWnOXcnHXx8-q7TnKi3bkk8/view?usp=drive_link
+    teaser:
 tags:
 - Art
 --- 

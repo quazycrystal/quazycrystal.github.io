@@ -3,19 +3,19 @@ title: Profile
 layout: posts
 permalink: /profile/
 ---
-<span style = "font-size: 20px; font-weight: 700;"> 
+<!-- <span style = "font-size: 20px; font-weight: 700;"> 
 Jiwon Kim | Innovation Maker
-</span>
+</span> -->
 
 <img src="/assets/img/jiwon-kim.png" style="width:300px; height:auto;" alt="Description of image"> 
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Education
 </span>
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;"> 
-*Master Course of Engineering, KAIST, Daejeon, South Korea*
+*Master's Course of Engineering, KAIST, Daejeon, South Korea*
 </span>  
 September 2023 — August 2025  
 Industrial Design
@@ -29,7 +29,7 @@ Painting
 <br>
 <br>
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Courses
 </span>
 <br>
@@ -53,7 +53,7 @@ August 2020 — September 2020
 <br>
 <br>
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Awards
 </span>
 <br>
@@ -78,7 +78,7 @@ Awards
 <br>
 <br>
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Publications
 </span>
 <br>
@@ -90,7 +90,7 @@ Dissertation in HCI Korea, Hongcheon, South Korea
 <br>
 <br>
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Exhibitions
 </span>
 <br>
@@ -109,7 +109,7 @@ Seoul, South Korea
 <br>
 <br>
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Internships
 </span>
 <br>
@@ -130,7 +130,7 @@ medium, and engaging student's interest in art
 <br>
 <br>
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Skills
 </span>
 <br>
@@ -138,7 +138,7 @@ Skills
 <span style = "font-size: 15px; font-weight: 600;">
 *Physical computer programming 𒊹𒊹𒊹𒊹*
 </span>  
-Arduino (C, C++)
+Arduino
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;">
@@ -162,7 +162,7 @@ Fusion 360, Rhino, and 3D MAX
 <span style = "font-size: 15px; font-weight: 600;">
 *Programming 𒊹𒊹𒊹*
 </span>  
-Python and front-end
+Python and jekyll
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;">
@@ -178,14 +178,15 @@ Ableton and MAX msp
 <br>
 <br>
 
-<span style = "font-size: 18px; font-weight: 700;"> 
+<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Languages
 </span>
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;">
-*Korean - Mother language 𒊹𒊹𒊹𒊹𒊹*  
-*English 𒊹𒊹𒊹𒊹𒊹*  
-*Japanese (Speaking) 𒊹𒊹𒊹𒊹*
+*Korean - Mother language*  
+*English 𒊹𒊹𒊹𒊹*  
+*Japanese (Speaking) 𒊹𒊹𒊹𒊹*  
+*Chinese 𒊹*
 </span> 
 

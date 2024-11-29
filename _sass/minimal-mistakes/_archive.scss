@@ -45,7 +45,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: 'Greca', sans-serif; //$sans-serif-narrow; item title in works and geeks
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -99,7 +99,7 @@
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
-  font-family: $caption-font-family;
+  font-family: 'Mazreha', sans-serif; //$caption-font-family;
   font-size: $type-size-8;
   background: #000;
   text-align: end;

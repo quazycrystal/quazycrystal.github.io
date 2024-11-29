@@ -48,9 +48,10 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: 600;
-  font-size: $type-size-3;
-  //z-index: 20;
+  font-family: 'Mazreha', sans-serif; //site title
+  font-weight: 400;
+  font-size: $type-size-1;
+  z-index: 20;
 }
 
 .site-subtitle {
