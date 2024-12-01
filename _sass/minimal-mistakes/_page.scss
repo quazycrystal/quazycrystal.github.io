@@ -271,88 +271,59 @@ body {
 /* CAROUSEL
    ========================================================================== */
    $border-radius: 5px; // Adjust the roundness of the corners
-   $thumbnail-hover-scale: 1.1; // Scale factor for thumbnail hover effect
-   $total-slides: 15; // Adjust this number based on the maximum number of slides in your template
-   
-   section {
-     //background: #f4f4f4;
-     padding: 0;
-     display: flex;
-     justify-content: center;
-   }
-   
-   .carousel {
-     width: 95%;
-     text-align: center;
+   .glide__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align images and captions */
+  }
+  
+  .slide-caption {
+    text-align: center;
+    font-size: $doc-font-size;
+    color: #333;
+    margin-top: 1em; /* Add some space between the image and caption */
+    font-family: $global-font-family;
+  }
+  
+   .carousel-container {
+    border-radius: $border-radius; // Apply rounded corners to each slide
+    max-width: 95%;
+    margin: 0 auto;
+  }
 
-     overflow: hidden; // Ensure no overflow is visible outside the container
-   }
-   
-   .carousel__slides {
-     display: flex;
-     padding-top: 2em;
-     overflow: hidden;
-   }
-   
-   .carousel__slide {
-     flex: 0 0 100%; //hmmmmmmmmmmmmmmmm... figure out!
-     overflow: hidden;
-     border-radius: $border-radius; // Apply rounded corners to each slide
-     display: flex;
-     flex-direction: column;
-   
-     img {
-       width: 100%;
-       height: auto;
-       object-fit: cover;
-       border-radius: inherit; // Inherit rounded corners from parent
-     }
-   
-     figcaption {
-       padding: 15px;
-       text-align: middle;
-     }
-   }
-   
    .carousel__thumbnails {
-     display: flex;
-     justify-content: center;
-     gap: 15px;
-     margin-top: 20px;
-   }
-   
-   .carousel__thumbnails a {
-     display: block;
-     width: 75px;
-     height: 75px;
-     overflow: hidden;
-     border-radius: $border-radius; // Apply rounded corners to each thumbnail
-     transition: transform 0.3s ease, box-shadow 0.3s ease; // Smooth transition for hover effect
-   
-     &:hover {
-       transform: scale($thumbnail-hover-scale); // Scale up on hover
-       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); // Add shadow on hover
-     }
-   
-     img {
-       width: 100%;
-       height: 100%;
-       object-fit: cover;
-       border-radius: inherit; // Ensure image respects the rounded corners
-     }
-   }
-   /* Dynamic slide targeting and positioning */
-    @for $i from 1 through $total-slides {
-      #slide#{$i}:target ~ .carousel__slides {
-        margin-left: calc(-#{$i - 1} * 100%); // Use percentage to shift each slide horizontally
-      }
-     /* Highlight the active thumbnail for each targeted slide */
-     #slide#{$i}:target ~ .carousel__thumbnails a:nth-of-type(#{$i}) {
-       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); // Shadow for active thumbnail
-       transform: scale($thumbnail-hover-scale); // Keep scaled size for active thumbnail
-     }
-    }
-                     
+    display: block;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .carousel-thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em; /* Add space between thumbnails and carousel */
+  }
+  
+  .carousel-thumbnails img {
+    border-radius: $border-radius; // Apply rounded corners to each slide
+    width: 75px;
+    height: 75px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-thumbnails img:hover {
+    transform: scale(1.1); /* Scale up by 1.1 times when hovered */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); // Add shadow on hover
+  }
+
+  .glide__slide img {
+    border-radius: $border-radius; // Apply rounded corners to each slide
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
 /*
    Social sharing
    ========================================================================== */
