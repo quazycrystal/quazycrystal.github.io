@@ -102,7 +102,7 @@ Hongik Painting Degree Show, Hongik University, Seoul, South Korea
 <br>
 
 <span style = "font-size: 15px; font-weight: 600;"> 
-[2015 "Yaoeseukechijeon"](https://www.instagram.com/p/Bj2NTbalSQl/)
+[2018 "Yaoeseukechijeon"](https://www.instagram.com/p/Bj2NTbalSQl/)
 </span>  
 Hongik Painting group exhibition and management, Hongik University,
 Seoul, South Korea

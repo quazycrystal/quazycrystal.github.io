@@ -268,8 +268,7 @@ body {
   }
 }
 
-/* ==========================================================================
-   CAROUSEL
+/* CAROUSEL
    ========================================================================== */
    $border-radius: 5px; // Adjust the roundness of the corners
    $thumbnail-hover-scale: 1.1; // Scale factor for thumbnail hover effect
@@ -285,6 +284,7 @@ body {
    .carousel {
      width: 95%;
      text-align: center;
+
      overflow: hidden; // Ensure no overflow is visible outside the container
    }
    
@@ -292,11 +292,10 @@ body {
      display: flex;
      padding-top: 2em;
      overflow: hidden;
-     border-radius: $border-radius; // Apply rounded corners to main slide area
    }
    
    .carousel__slide {
-     flex: 0 0 100.5%; //hmmmmmmmmmmmmmmmm... figure out!
+     flex: 0 0 100%; //hmmmmmmmmmmmmmmmm... figure out!
      overflow: hidden;
      border-radius: $border-radius; // Apply rounded corners to each slide
      display: flex;
