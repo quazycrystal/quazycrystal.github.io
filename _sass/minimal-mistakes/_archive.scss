@@ -221,13 +221,13 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      max-height: 120px;
-      max-width: 200px;
+      aspect-ratio: 16 / 10;
+      max-height: 200px;
     }
 
     @include breakpoint($medium) {
-      max-height: 120px;
-      max-width: 200px;
+      aspect-ratio: 16 / 10;
+      max-height: 200px;
     }
   }
 }
