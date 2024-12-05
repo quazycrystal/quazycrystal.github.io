@@ -16,24 +16,20 @@ It is a collection of pieces delivering dreamy light inspired by everyday scenes
 <img src="/assets/img/2022-sonus-dasyatis/a.jpeg" style="width:auto; height:auto;" alt="home"> 
 <div style = "text-align: center;"> 
 Jiwon Kim, < Rootless > Installation, 2020 
-
-</div>
-<img src="/assets/img/2022-sonus-dasyatis/b.jpeg" style="width:auto; height:auto;" alt="home"> 
-<div style = "text-align: center;"> 
-Jiwon Kim, < Rootless > Installation, 2020 
-
-</div>
-<img src="/assets/img/2022-sonus-dasyatis/c.jpeg" style="width:auto; height:auto;" alt="home"> 
-<div style = "text-align: center;"> 
-Jiwon Kim, < Rootless > Installation, 2020 
 </div>
 
-<img src="/assets/img/2022-sonus-dasyatis/d.jpeg" style="width:auto; height:auto;" alt="home"> 
+<div class="left">
+<img src="/assets/img/2022-sonus-dasyatis/b.jpeg" />
+<img src="/assets/img/2022-sonus-dasyatis/c.jpeg" />
+</div>
+
 <div style = "text-align: center;"> 
 Jiwon Kim, < Rootless > Installation, 2020 
 </div>
 
-<img src="/assets/img/2022-sonus-dasyatis/e.jpeg" style="width:auto; height:auto;" alt="home"> 
+<img src="/assets/img/2022-sonus-dasyatis/d.jpeg" />
+<img src="/assets/img/2022-sonus-dasyatis/e.jpeg" />
+
 <div style = "text-align: center;"> 
 Jiwon Kim, < Rootless > Installation, 2020 
 </div>

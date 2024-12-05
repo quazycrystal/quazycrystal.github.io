@@ -5,7 +5,7 @@ permalink: /works/
 entries_layout: grid # posts layout
 ---
 <body oncontextmenu="return false;">
-Everything you can imagine
+Experiments and embodiment of thoughts
 
 {% include works-tag.html tag= site.tags %}
 
