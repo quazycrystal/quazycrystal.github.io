@@ -25,7 +25,7 @@ At the same time, I focused on natural fractal structures, such as the curves of
 <br> 
 <br> 
 
-<img src="/assets/img/2022-sonus-dasyatis/a.jpeg" style="width:auto; height:auto;" alt="home"> 
+<img src="/assets/img/2022-sonus-dasyatis/a.jpeg" style="width:auto; height:auto;"> 
 <div style = "text-align: center;"> 
 Jiwon Kim, < Sonus dasyatis > Installation, 2022 
 </div>
@@ -91,5 +91,4 @@ Jiwon Kim, < Sonus dasyatis > Arduino instrument, PVC cover, 42cm×34cm, 2022
 
 <video controls style="display: block; margin: 0 auto; width: auto; max-width: 100%; height: auto;">
   <source src="{{ '/assets/img/2022-sonus-dasyatis/sonus-dasyatis.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
 </video>

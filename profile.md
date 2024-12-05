@@ -24,7 +24,7 @@ Industrial Design
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Bachelor of Arts, Hongik University, Seoul, South Korea
 </span>  
-March 2015 — February 2023  
+March 2018 — February 2023  
 Painting
 <br>
 <br>
@@ -72,7 +72,7 @@ Awards
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
-[2024 AI x Art Hackathon (3rd Place)](https://aiart.snu.ac.kr/aiart-hackathon)
+[2024 AI x Art Hackathon 3rd Place](https://aiart.snu.ac.kr/aiart-hackathon)
 </span>  
 "Speculative Artificial-Mycorrhizal Networks", Seoul University, Seoul, South Korea
 <br>
