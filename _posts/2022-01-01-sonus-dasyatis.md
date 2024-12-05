@@ -11,12 +11,25 @@ tags:
 - Programming
 ---
 ## Sonus dasyatis, 2022
-<Sonus dasyatis, 2022> is
-It is a collection of pieces delivering dreamy light inspired by everyday scenes and dynamic emotions.
+<br>
+<Sonus dasyatis, 2022> is a fictional creature inhabiting a "distorted spacetime," living through the act of running. Within this realm, it swims through an invisible fluid-filled space, emitting unique sounds and light reminiscent of dolphins communicating via echolocation.
+<br>
+
+"Distorted spacetime" symbolizes the individual perception of space and time shaped by the speed at which one experiences their surroundings. It draws upon the theories of aesthetic philosopher Paul Virilio, who explored the relationship between speed and space. Virilio connected the phenomenon of space feeling smaller at higher speeds to Einstein's theory of relativity, where moving masses distort spacetime.
+<br> 
+
+Similarly, I bypassed detailed observations of the environment due to the speed while running. Then, I perceived the same space as more compressed compared to walking. The rushing wind against my body created a sense of flow in this distorted spacetime, inspiring the form of this creature to resemble a ray gliding through waves.
+<br>
+
+Simultaneously, I focused on natural fractal structures, such as the curves of a shoreline or the structure of fern leaves. Thus, the shape of the creature's appearance resembles the Mandelbrot set. The creature's skin is made of translucent PVC that reflects iridescent light inspired by the transparent membranes of marine life. Beneath this membrane, a network of wiring and neon-colored tubing forms a structure that is both visually striking and functional as an instrument.
+<br>  
+<br>  
+
 <img src="/assets/img/2022-sonus-dasyatis/a.jpeg" style="width:auto; height:auto;" alt="home"> 
 <div style = "text-align: center;"> 
-Jiwon Kim, < Rootless > Installation, 2020 
+Jiwon Kim, < Sonus dasyatis > Installation, 2022 
 </div>
+<br>
 
 <div class="left">
 <img src="/assets/img/2022-sonus-dasyatis/b.jpeg" />
@@ -24,15 +37,18 @@ Jiwon Kim, < Rootless > Installation, 2020
 </div>
 
 <div style = "text-align: center;"> 
-Jiwon Kim, < Rootless > Installation, 2020 
+<br>
+Jiwon Kim, < Sonus dasyatis > Arduino instrument, PVC cover, 42cm×34cm, 2022
 </div>
+<br>
 
 <img src="/assets/img/2022-sonus-dasyatis/d.jpeg" />
 <img src="/assets/img/2022-sonus-dasyatis/e.jpeg" />
 
 <div style = "text-align: center;"> 
-Jiwon Kim, < Rootless > Installation, 2020 
+Jiwon Kim, < Sonus dasyatis > Arduino instrument, PVC cover, 42cm×34cm, 2022
 </div>
+<br>
 
 <div class="carousel-container">
 <!-- Thumbnails -->
@@ -49,24 +65,24 @@ Jiwon Kim, < Rootless > Installation, 2020
     <ul class="glide__slides">
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/f.jpeg">
-            <div class="slide-caption">Jiwon Kim, < So gone So gone > Digital drawing, 2856×2000(px), 2023
+            <div class="slide-caption">Jiwon Kim, < Concept drawing > Digital drawing, 2388×1668(px), 2022
             </div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/g.jpeg">
-            <div class="slide-caption">Jiwon Kim, < Lamp > Digital drawing, 1800×3200(px), 2023</div>
+            <div class="slide-caption">Jiwon Kim, < Sonus dasyatis: Blueprint of its skin > Digital drawing, 1985×1418(px), 2022</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/h.jpeg">
-            <div class="slide-caption">Jiwon Kim, < Pink + White > Digital drawing, 2400×3200(px), 2023</div>
+            <div class="slide-caption">Working process of < Sonus dasyatis > - Arduino instrument</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/i.jpeg">
-            <div class="slide-caption">Jiwon Kim, < Ginger root> Digital drawing, 4000×2000(px), 2023</div>
+            <div class="slide-caption">Working process of < Sonus dasyatis > - Skin</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/j.jpeg">
-            <div class="slide-caption">Jiwon Kim, < Fly > Digital drawing, 2502×3582(px), 2023</div>
+            <div class="slide-caption">JWorking process of < Sonus dasyatis > - Assembly</div>
         </li>
     </ul>
     </div>
