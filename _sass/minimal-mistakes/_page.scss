@@ -267,6 +267,15 @@ body {
     text-decoration: none;
   }
 }
+/* Image Alignment
+  ========================================================================== */
+.left {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  flex-wrap: nowrap;
+}
 
 /* CAROUSEL
   ========================================================================== */
