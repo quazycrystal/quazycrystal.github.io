@@ -21,9 +21,9 @@ tags:
 Similarly, I bypassed detailed observations of the environment due to the speed while running. Then, I perceived the same space as more compressed compared to walking. The rushing wind against my body created a sense of flow in this distorted spacetime, inspiring the form of this creature to resemble a ray gliding through waves.
 <br>
 
-Simultaneously, I focused on natural fractal structures, such as the curves of a shoreline or the structure of fern leaves. Thus, the shape of the creature's appearance resembles the Mandelbrot set. The creature's skin is made of translucent PVC that reflects iridescent light inspired by the transparent membranes of marine life. Beneath this membrane, a network of wiring and neon-colored tubing forms a structure that is both visually striking and functional as an instrument.
-<br>  
-<br>  
+At the same time, I focused on natural fractal structures, such as the curves of a shoreline or the structure of fern leaves. Thus, the shape of the creature's appearance resembles the Mandelbrot set. The creature's skin is made of translucent PVC that reflects iridescent light inspired by the transparent membranes of marine life. Beneath this membrane, a network of wiring and neon-colored tubing forms a structure that is both visually striking and functional as an instrument.
+<br> 
+<br> 
 
 <img src="/assets/img/2022-sonus-dasyatis/a.jpeg" style="width:auto; height:auto;" alt="home"> 
 <div style = "text-align: center;"> 
@@ -82,8 +82,14 @@ Jiwon Kim, < Sonus dasyatis > Arduino instrument, PVC cover, 42cm×34cm, 2022
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/j.jpeg">
-            <div class="slide-caption">JWorking process of < Sonus dasyatis > - Assembly</div>
+            <div class="slide-caption">Working process of < Sonus dasyatis > - Assembly</div>
         </li>
     </ul>
     </div>
 </div>
+<br>
+
+<video controls style="display: block; margin: 0 auto; width: auto; max-width: 100%; height: auto;">
+  <source src="{{ '/assets/img/2022-sonus-dasyatis/sonus-dasyatis.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
