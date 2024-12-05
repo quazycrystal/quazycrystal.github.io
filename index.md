@@ -8,17 +8,17 @@ layout: posts
 <img src="/assets/img/home.png" style="width:auto; height:auto;" alt="home"> 
 
 <p>
- She creates various types of work, including installation art, jewelry, and audio systems. Her study is focused on how people interact with her creations.
+ I create various types of work, including installation art, jewelry, and audio systems. My study is focused on how people interact with my creations.
 </p>
 
 <p>
- Her passion for developing customizable MIDI system is evident in her work. Her creations integrate unique sound and interactive kinetic sculptures based on her expertise in fine art and computer science.
+ My passion is on developing customizable audio systems. Based on fine art and computer science expertise, my creations integrate unique sound and interactive kinetic sculptures.
 </p>
 
 <p>
- Master's studies in industrial design have encouraged her to tackle global challenges with design solutions, including medical and environmental problems. At the same time, she continues to make mysterious objects that are hard to categorize, all driven by her passions. 
+ Master's studies in industrial design have encouraged me to tackle global challenges with design solutions, including medical and environmental problems. At the same time, I make mysterious objects that are hard to categorize, driven by my desire to create. 
 </p>
 
 <p>
- Her unique designs, resulting from her dedication to craftsmanship, are a testament to her creativity and innovation. 
+My unique designs, born from dedication to craftsmanship, stand as a testament to creativity and innovation.
 </p>
