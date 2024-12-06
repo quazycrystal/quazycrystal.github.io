@@ -74,15 +74,15 @@ Jiwon Kim, < Sonus dasyatis > Arduino instrument, PVC cover, 42cm×34cm, 2022
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/h.jpeg">
-            <div class="slide-caption">Working process of < Sonus dasyatis > - Arduino instrument</div>
+            <div class="slide-caption">< Sonus dasyatis > - Working process: Arduino instrument</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/i.jpeg">
-            <div class="slide-caption">Working process of < Sonus dasyatis > - Skin</div>
+            <div class="slide-caption">< Sonus dasyatis > - Working process: Skin</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/j.jpeg">
-            <div class="slide-caption">Working process of < Sonus dasyatis > - Assembly</div>
+            <div class="slide-caption">< Sonus dasyatis > - Working process: Assembly</div>
         </li>
     </ul>
     </div>

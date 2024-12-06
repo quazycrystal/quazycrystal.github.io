@@ -8,6 +8,10 @@ Jiwon Kim | Innovation Maker
 </span> -->
 
 <img src="/assets/img/jiwon-kim.png" style="width:300px; height:auto;" alt="Jiwon-Kim-profile"> 
+<br>
+
+Born in Gumi, South Korea, 1999  
+Work in Daejeon / Seoul, South Korea
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Education
