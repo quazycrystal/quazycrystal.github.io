@@ -23,7 +23,10 @@ layout: default
   <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].other_works | default: "Other Works" }}</h3>
 
   {% assign posts = site.categories.Works %}
-  {% assign shuffled_posts = posts | sample: 4 %}
+  {% assign current_post_url = page.url %}
+
+  {% assign filtered_posts = posts | where_exp: "post", "post.url != current_post_url" %}
+  {% assign shuffled_posts = filtered_posts | sample: 4 %}
 
   {% assign entries_layout = page.entries_layout | default: 'grid' %}
   <div class="entries-{{ entries_layout }}">
