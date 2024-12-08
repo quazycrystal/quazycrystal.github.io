@@ -149,6 +149,16 @@
 .grid__item {
   margin-bottom: 2em;
 
+  @include breakpoint($x-small) {
+    float: inline-start;
+    width: span(10 of 10);
+
+    &:nth-child(n) {
+      clear: both;
+      margin-inline-start: 0;
+    }
+  }
+
   @include breakpoint($small) {
     float: inline-start;
     width: span(5 of 10);
@@ -220,6 +230,13 @@
   }
 
   .archive__item-teaser {
+   
+    @include breakpoint($x-small) {
+      aspect-ratio: 16 / 10;
+      max-height: 200px;
+      overflow: hidden;
+    }
+
     @include breakpoint($small) {
       aspect-ratio: 16 / 10;
       max-height: 200px;
@@ -227,18 +244,6 @@
     }
 
     @include breakpoint($medium) {
-      aspect-ratio: 16 / 10;
-      max-height: 200px;
-      overflow: hidden;
-    }
-
-    @include breakpoint($large) {
-      aspect-ratio: 16 / 10;
-      max-height: 200px;
-      overflow: hidden;
-    }
-
-    @include breakpoint($x-large) {
       aspect-ratio: 16 / 10;
       max-height: 200px;
       overflow: hidden;
