@@ -231,6 +231,18 @@
       max-height: 200px;
       overflow: hidden;
     }
+
+    @include breakpoint($large) {
+      aspect-ratio: 16 / 10;
+      max-height: 200px;
+      overflow: hidden;
+    }
+
+    @include breakpoint($x-large) {
+      aspect-ratio: 16 / 10;
+      max-height: 200px;
+      overflow: hidden;
+    }
   }
 }
 
