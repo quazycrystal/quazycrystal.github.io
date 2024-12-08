@@ -12,7 +12,7 @@ tags:
 ---
 ## Sonus dasyatis, 2022
 <br>
-<Sonus dasyatis, 2022> is a fictional creature inhabiting a "distorted spacetime," living through the act of running. Within this realm, it swims through an invisible fluid-filled space, emitting unique sounds and light reminiscent of dolphins communicating via echolocation.
+< Sonus dasyatis > is a fictional creature inhabiting a "distorted spacetime," living through the act of running. Within this realm, it swims through an invisible fluid-filled space, emitting unique sounds and light reminiscent of dolphins communicating via echolocation.
 <br>
 
 "Distorted spacetime" symbolizes the individual perception of space and time shaped by the speed at which one experiences their surroundings. It draws upon the theories of aesthetic philosopher Paul Virilio, who explored the relationship between speed and space. Virilio connected the phenomenon of space feeling smaller at higher speeds to Einstein's theory of relativity, where moving masses distort spacetime.
@@ -70,7 +70,7 @@ Jiwon Kim, < Sonus dasyatis > Arduino instrument, PVC cover, 42cm×34cm, 2022
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/g.jpeg">
-            <div class="slide-caption">Jiwon Kim, < Sonus dasyatis: Blueprint of its skin > Digital drawing, 1985×1418(px), 2022</div>
+            <div class="slide-caption">Jiwon Kim, < Sonus dasyatis: Blueprint > Digital drawing, 1985×1418(px), 2022</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-sonus-dasyatis/h.jpeg">
