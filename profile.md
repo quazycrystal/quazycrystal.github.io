@@ -70,7 +70,7 @@ Awards
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-[2024 Prototype for Humanity top 100](https://www.prototypesforhumanity.com/)
+[2024 Prototype for Humanity top 100](https://www.prototypesforhumanity.com/project/oxynizer)
 </span>   
 "Oxynizer: Sustainable & Non-electric Oxygen generator", South Korea
 <br>

@@ -10,7 +10,7 @@ tags:
 --- 
 
 ## Lime light, 2023
-<Lime light, 2023> series consists of 6 artworks.  
+< Lime light > series consists of 6 artworks.  
 It is a collection of pieces delivering dreamy light inspired by everyday scenes and dynamic emotions.
 <div class="carousel-container">
 <!-- Thumbnails -->
