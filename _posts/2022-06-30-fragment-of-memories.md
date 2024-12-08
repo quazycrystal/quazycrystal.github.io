@@ -16,7 +16,7 @@ tags:
 The clay sculpture represents muscles and flesh, while colorful "fragments" embedded within symbolize bones. Each "fragment" includes objects that embody the circumstances of specific memories and bone fragments associated with the body parts relevant to those memories. The sculpture expresses the dynamic nature of the body through its intricate forms and light-transmitting, three-dimensional structure, reflecting the vitality of movement.
 <br>
 
-The sculpture reveals different shapes and fragments of memory depending on the viewer's vantage point, as emotions associated with memories can change depending on one's perspective. The clay sculpture envelops the fragments that form the skeletal framework of memories, shaping the body and evoking the impression of memories physically etched into it.
+The sculpture reveals different shapes and fragments of memory depending on the viewer's vantage point, as emotions associated with memories change depending on one's perspective. The clay sculpture envelops the fragments that form the skeletal framework of memories, shaping the body and evoking the impression of memories physically etched into it.
 <br>
 <br>
 
