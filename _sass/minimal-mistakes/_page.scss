@@ -298,10 +298,12 @@ body {
 }
 
 .carousel-container {
-padding: 1em; // Add some space between the image and caption, and top of the carousel
-border-radius: $border-radius; // Apply rounded corners to each slide
-max-width: 95%;
-margin: 0 auto;
+  padding: 1em; // Add some space between the image and caption, and top of the carousel
+  border-radius: $border-radius; // Apply rounded corners to each slide
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .carousel-thumbnails {

@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', function () {
   // Select all carousel containers
   const glideElements = document.querySelectorAll('.glide-main');
 
-  glideElements.forEach((glideElement, index) => {
+  glideElements.forEach((glideElement) => {
       const glide = new Glide(glideElement, {
           type: 'carousel',
           startAt: 0,
           perView: 1,
-          animationDuration: 400,
+          animationDuration: 0,
       });
 
       // Adjust the carousel height for the current carousel

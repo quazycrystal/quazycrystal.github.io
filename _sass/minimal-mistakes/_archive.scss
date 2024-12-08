@@ -223,11 +223,13 @@
     @include breakpoint($small) {
       aspect-ratio: 16 / 10;
       max-height: 200px;
+      overflow: hidden;
     }
 
     @include breakpoint($medium) {
       aspect-ratio: 16 / 10;
       max-height: 200px;
+      overflow: hidden;
     }
   }
 }
