@@ -12,11 +12,11 @@ layout: posts
 </p>
 
 <p>
- My passion is on developing customizable audio systems. Based on fine art and computer science expertise, my creations integrate unique sound and interactive kinetic sculptures.
+ I love developing customizable audio systems. Based on fine art and computer science expertise, my creations integrate unique sound and interactive kinetic sculptures.
 </p>
 
 <p>
- Master's studies in industrial design have encouraged me to tackle global challenges with design solutions, including medical and environmental problems. At the same time, I make mysterious objects that are hard to categorize, driven by my desire to create. 
+ Master's studies in industrial design have encouraged me to tackle global challenges with design solutions, including medical and environmental problems. At the same time, I make mysterious objects that are hard to categorize, driven by my passion to create. 
 </p>
 
 <p>

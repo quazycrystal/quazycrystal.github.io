@@ -10,6 +10,15 @@ tags:
 ---
 ## Fragment of memories, 2022
 <br>
+< Fragment of memories > delves into the relationship between my body and memories,  inspired by the impact of exercise on my body and mind. Traces of memories revealed through body shape and scars are translated into "fragments of memory" and incorporated into the clay sculpture.
+<br>
+
+The clay sculpture represents muscles and flesh, while colorful "fragments" embedded within symbolize bones. Each "fragment" includes objects that embody the circumstances of specific memories and bone fragments associated with the body parts relevant to those memories. The sculpture expresses the dynamic nature of the body through its intricate forms and light-transmitting, three-dimensional structure, reflecting the vitality of movement.
+<br>
+
+The sculpture reveals different shapes and fragments of memory depending on the viewer's vantage point, as emotions associated with memories can change depending on one's perspective. The clay sculpture envelops the fragments that form the skeletal framework of memories, shaping the body and evoking the impression of memories physically etched into it.
+<br>
+<br>
 
 <div class="left">
 <img src="/assets/img/2022-fragment-of-memories/a.jpeg" />
@@ -18,7 +27,7 @@ tags:
 
 <div style = "text-align: center;"> 
 <br>
-Jiwon Kim, < Fragment of memories > clay, Hemp Rope, and steel rods 31cm×18cm, 2022
+Jiwon Kim, < Fragment of memories > Clay, Hemp Rope, and Steel Rods 31cm×18cm, 2022
 </div>
 <br>
 
@@ -93,24 +102,24 @@ Jiwon Kim, < Fragment of memories > clay, Hemp Rope, and steel rods 31cm×18cm, 
     <ul class="glide__slides">
         <li class="glide__slide">
             <img src="/assets/img/2022-fragment-of-memories/k.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: arm
+            <div class="slide-caption">< Fragment of memories > - Working process: Arm
             </div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-fragment-of-memories/l.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: foot </div>
+            <div class="slide-caption">< Fragment of memories > - Working process: Foot </div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-fragment-of-memories/m.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: back and calf</div>
+            <div class="slide-caption">< Fragment of memories > - Working process: Back and calf</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-fragment-of-memories/n.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: thigh and collar</div>
+            <div class="slide-caption">< Fragment of memories > - Working process: Thigh and collar</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-fragment-of-memories/o.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: chest</div>
+            <div class="slide-caption">< Fragment of memories > - Working process: Chest</div>
         </li>
     </ul>
     </div>
