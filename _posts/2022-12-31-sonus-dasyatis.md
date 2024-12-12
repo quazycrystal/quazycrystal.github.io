@@ -18,7 +18,7 @@ tags:
 "Distorted spacetime" symbolizes the individual perception of space and time shaped by the speed at which one experiences their surroundings. It draws upon the theories of aesthetic philosopher Paul Virilio, who explored the relationship between speed and space. Virilio connected the phenomenon of space feeling smaller at higher speeds to Einstein's theory of relativity, where moving masses distort spacetime.
 <br> 
 
-Similarly, I bypassed detailed observations of the environment due to the speed while running. Then, I perceived the same space as more compressed compared to walking. The rushing wind against my body created a sense of flow in this distorted spacetime, inspiring the form of this creature to resemble a ray gliding through waves.
+The theory reminded me of my personal experience of perceiving the same space as more compressed compared to walking, bypassing detailed observations of the environment due to the speed while running. The rushing wind against my body created a sense of flow in this distorted spacetime, inspiring the form of this creature to resemble a ray gliding through a wave.
 <br>
 
 At the same time, I focused on natural fractal structures, such as the curves of a shoreline or the structure of fern leaves. Thus, the shape of the creature's appearance resembles the Mandelbrot set. The creature's skin is made of translucent PVC that reflects iridescent light inspired by the transparent membranes of marine life. Beneath this membrane, a network of wiring and neon-colored tubing forms a structure that is both visually striking and functional as an instrument.
