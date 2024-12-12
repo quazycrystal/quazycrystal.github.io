@@ -10,7 +10,7 @@ tags:
 ---
 ## Fragment of memories, 2022
 <br>
-< Fragment of memories > delves into the relationship between my body and memories,  inspired by the impact of exercise on my body and mind. Traces of memories revealed through body shape and scars are translated into "fragment of memories" and incorporated into the clay sculpture.
+< Fragment of memories > delves into the relationship between my body and memories, inspired by the impact of exercise on my body and mind. Traces of memories revealed through body shape and scars are translated into "fragment of memories" and incorporated into the clay sculpture.
 <br>
 
 The clay sculpture represents muscles and flesh, while colorful "fragments" embedded within symbolize bones. Each "fragment" includes objects that embody the circumstances of specific memories and bone fragments associated with the body parts relevant to those memories. The sculpture expresses the dynamic nature of the body through its intricate forms and light-transmitting, three-dimensional structure, reflecting the vitality of movement.
