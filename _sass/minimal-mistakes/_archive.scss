@@ -235,15 +235,10 @@
       aspect-ratio: 16 / 10;
       max-height: 200px;
       overflow: hidden;
+      width: 100%; // Ensures the aspect ratio is calculated properly
     }
 
-    @include breakpoint($small) {
-      aspect-ratio: 16 / 10;
-      max-height: 200px;
-      overflow: hidden;
-    }
-
-    @include breakpoint($medium) {
+    @include breakpoint($small, $medium) {
       aspect-ratio: 16 / 10;
       max-height: 200px;
       overflow: hidden;
