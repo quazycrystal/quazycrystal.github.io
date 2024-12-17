@@ -55,7 +55,7 @@ Jiwon Kim, < Heartache > Installation, 2022
     <ul class="glide__slides">
         <li class="glide__slide">
             <img src="/assets/img/2022-heartache/f.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: Concept Drawing</div>
+            <div class="slide-caption">< Fragment of memories > - Working process: Concept drawing</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-heartache/g.jpeg">
@@ -63,11 +63,11 @@ Jiwon Kim, < Heartache > Installation, 2022
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-heartache/h.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: legs and body frame</div>
+            <div class="slide-caption">< Fragment of memories > - Working process: Legs and body frame</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2022-heartache/i.jpeg">
-            <div class="slide-caption">< Fragment of memories > - Working process: Heart Ballon Drawings</div>
+            <div class="slide-caption">< Fragment of memories > - Working process: Heart ballon drawings</div>
         </li>
     </ul>
     </div>
