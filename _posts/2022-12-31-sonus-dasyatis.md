@@ -1,5 +1,5 @@
 ---
-title: "Sonus dasyatis"
+title: "Sonus dasyatis (2022)"
 permalink: /works/sonus-dasyatis
 layout: posts-works
 categories: "Works"
@@ -10,7 +10,7 @@ tags:
 - Audio
 - Programming
 ---
-## Sonus dasyatis, 2022
+## Sonus dasyatis
 <br>
 < Sonus dasyatis > is a fictional creature inhabiting a "distorted spacetime," living through the act of running. Within this realm, it swims through an invisible fluid-filled space, emitting unique sounds and light reminiscent of dolphins communicating via echolocation.
 <br>

@@ -1,5 +1,5 @@
 ---
-title: "Fragment of memories"
+title: "Fragment of memories (2022)"
 permalink: /works/fragment-of-memories
 layout: posts-works
 categories: "Works"
@@ -8,7 +8,7 @@ header:
 tags:
 - Art
 ---
-## Fragment of memories, 2022
+## Fragment of memories
 <br>
 < Fragment of memories > delves into the relationship between my body and memories, inspired by the impact of exercise on my body and mind. Traces of memories revealed through body shape and scars are translated into "fragment of memories" and incorporated into the clay sculpture.
 <br>

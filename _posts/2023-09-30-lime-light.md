@@ -1,5 +1,5 @@
 ---
-title: "lime light"
+title: "lime light (2023)"
 permalink: /works/lime-light
 layout: posts-works
 categories: "Works"
@@ -9,7 +9,8 @@ tags:
 - Art
 --- 
 
-## Lime light, 2023
+## Lime light
+<br>
 < Lime light > series consists of 6 artworks.  
 It is a collection of pieces delivering dreamy light inspired by everyday scenes and dynamic emotions.
 <div class="carousel-container">

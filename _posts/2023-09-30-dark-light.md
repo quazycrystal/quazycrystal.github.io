@@ -1,5 +1,5 @@
 ---
-title: "Dark light"
+title: "Dark light (2023)"
 permalink: /works/dark-light
 layout: posts-works
 categories: "Works"
@@ -9,7 +9,8 @@ tags:
 - Art
 --- 
 
-## Dark light, 2023
+## Dark light
+<br>
 < Dark light > series consists of 10 artworks.  
 It is a collection of pieces with a strong contrast of light and shadow, inspired by everyday scenes and dynamic emotions.
 
