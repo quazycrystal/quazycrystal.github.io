@@ -6,7 +6,7 @@ categories: "Works"
 header:
     teaser: /assets/img/2022-heartache/a.jpeg
 tags:
-- Art
+- Kinetic Art
 ---
 ## Heartache
 <br>
