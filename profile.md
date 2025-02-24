@@ -126,15 +126,15 @@ Work experiences
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
-UX Researcher at NH Investment & Securities Co., Ltd research center in KAIST, Daejeon, South Korea (Industry-Academia)  
+UX Researcher at NH Investment & Securities Co., Ltd Research center in KAIST, Daejeon, South Korea (Industry-Academia)  
 </span>
 Sep 2023 - Aug 2025   
-Identified painpoints in virtual investment experiences and AI agent-assisted investment services through thematic coding  
+Identified pain points in virtual investment experiences and AI agent-assisted investment services through thematic coding  
 Delivered user scenarios and storyboards with drawing skills, presenting evaluation results
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
-Project researcher at NRF (National Research Foundation), Daejeon, South Korea
+Partner researcher at NRF (National Research Foundation), Daejeon, South Korea
 </span>  
 Feb 2024 — August 2025  
 Participated as general chair of XR music concert workshops and seminars  
@@ -146,7 +146,7 @@ Project name: "Listening Though the Body: Combining Visual, Auditory, and Haptic
 Partner researcher at ITRC, Daejeon, South Korea
 </span>  
 Jul 2024 — August 2025   
-Submitted demo in SIGGRAPH 2025 (emerging technologies) about musical education using fiducial marker in XR  
+Submitted a demo in SIGGRAPH 2025 (emerging technologies) about musical education using fiducial marker in XR  
 Project name: "SpaceTop: Spatial Computing HCI Technology for Delivering XR Productivity Spaces Everywhere"
 <br>  
 <br>
