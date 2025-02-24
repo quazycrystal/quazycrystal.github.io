@@ -146,7 +146,7 @@ Project name: "Listening Though the Body: Combining Visual, Auditory, and Haptic
 Partner researcher at ITRC, Daejeon, South Korea
 </span>  
 Jul 2024 — August 2025   
-Submitted demo in SIGGRAPH (emerging technologies) about musical education using fiducial marker in XR  
+Submitted demo in SIGGRAPH 2025 (emerging technologies) about musical education using fiducial marker in XR  
 Project name: "SpaceTop: Spatial Computing HCI Technology for Delivering XR Productivity Spaces Everywhere"
 <br>  
 <br>

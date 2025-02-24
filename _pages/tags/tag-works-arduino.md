@@ -1,13 +1,13 @@
 ---
-title: "Programming projects"
+title: "Arduino"
 layout: archive
-permalink: /works/programming/
+permalink: /works/arduino/
 entries_layout: grid # posts layout (list/grid)
 #author_profile: true
 #sidebar_main: true
 ---
 <body oncontextmenu="return false;">
-{% assign tag = "Programming" %} <!--tag name-->
+{% assign tag = "Arduino" %} <!--tag name-->
 {% assign posts = site.categories.Works %}
   <ul> 
   {% for post in posts %}

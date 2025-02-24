@@ -6,7 +6,7 @@ categories: "Works"
 header:
     teaser: /assets/img/2023-lime-light/a.jpeg
 tags:
-- Art
+- Paintings
 --- 
 
 ## Lime light

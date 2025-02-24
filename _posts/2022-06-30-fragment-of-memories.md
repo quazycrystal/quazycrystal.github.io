@@ -6,7 +6,7 @@ categories: "Works"
 header:
     teaser: /assets/img/2022-fragment-of-memories/d.jpeg
 tags:
-- Art
+- Sculptures
 ---
 ## Fragment of memories
 <br>

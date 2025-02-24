@@ -6,7 +6,7 @@ categories: "Works"
 header:
     teaser: "/assets/img/2023-dark-light/a.jpeg"
 tags:
-- Art
+- Paintings
 --- 
 
 ## Dark light
