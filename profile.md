@@ -6,12 +6,18 @@ permalink: /profile/
 <!-- <span style = "font-size: 20px; font-weight: 700;"> 
 Jiwon Kim | Innovation Maker
 </span> -->
+<span style = "font-size: $type-size-4; font-weight: 600;"> 
+Contact  
+Email: quazycrystal@gmail.com
+[LinkedIn](https://www.linkedin.com/in/jiwonkim-art-audio-design)
+[Github](https://github.com/quazycrystal)
+</span>
 
 <img src="/assets/img/jiwon-kim.png" style="width:300px; height:auto;" alt="Jiwon-Kim-profile"> 
-<br>
+<br> 
 
 Born in Gumi, South Korea, 1999  
-Work in Daejeon / Seoul, South Korea
+Work in Daejeon / Seoul, South Korea  
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Education
@@ -76,7 +82,8 @@ Awards
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
-[2024 AI x Art Hackathon 3rd Place](https://aiart.snu.ac.kr/aiart-hackathon)
+[2024 AI x Art Hackathon 3rd Place](https://www.aitimes.com/news/articleView.html?idxno=163226)
+<!-- (https://aiart.snu.ac.kr/aiart-hackathon) -->
 </span>  
 "Speculative Artificial-Mycorrhizal Networks", Seoul University, Seoul, South Korea
 <br>
@@ -94,7 +101,7 @@ Dissertation in HCI Korea, Hongcheon, South Korea
 <br>
 <br>
 
-<span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
+<!-- <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Exhibitions
 </span>
 <br>
@@ -111,14 +118,40 @@ Hongik Painting Degree Show, Hongik University, Seoul, South Korea
 Hongik Painting group exhibition and management, Hongik University,
 Seoul, South Korea
 <br>
-<br>
+<br> -->
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
-Internships
+Work experiences
 </span>
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
+UX Researcher at NH Investment & Securities Co., Ltd research center in KAIST, Daejeon, South Korea (Industry-Academia)  
+</span>
+Sep 2023 - Aug 2025   
+Identified painpoints in virtual investment experiences and AI agent-assisted investment services through thematic coding  
+Delivered user scenarios and storyboards with drawing skills, presenting evaluation results
+<br>
+
+<span style = "font-size: $type-size-4; font-weight: 600;"> 
+Project researcher at NRF (National Research Foundation), Daejeon, South Korea
+</span>  
+Feb 2024 — August 2025  
+Participated as general chair of XR music concert workshops and seminars  
+Created [a website](https://sites.google.com/view/nrfworkshop) for introducing and organizing the project  
+Project name: "Listening Though the Body: Combining Visual, Auditory, and Haptic Interaction While Designing a Concert Space for XR"
+<br>
+
+<span style = "font-size: $type-size-4; font-weight: 600;"> 
+Partner researcher at ITRC, Daejeon, South Korea
+</span>  
+Jul 2024 — August 2025   
+Submitted demo in SIGGRAPH (emerging technologies) about musical education using fiducial marker in XR  
+Project name: "SpaceTop: Spatial Computing HCI Technology for Delivering XR Productivity Spaces Everywhere"
+<br>  
+<br>
+
+<!-- <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Intern curator at [Alternative Space LOOP](http://altspaceloop.com/exhibitions/hcy-returnhome-2021), Seoul, South Korea
 </span>  
 June 2021 — August 2021  
@@ -132,7 +165,7 @@ May 2021 — December 2021
 Introducing artist's works, demonstrating art using various
 medium, and engaging student's interest in art
 <br>
-<br>
+<br> -->
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Skills
@@ -140,9 +173,9 @@ Skills
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-Physical computer programming 𒊹𒊹𒊹𒊹
+Design tools 𒊹𒊹𒊹𒊹
 </span>  
-Arduino
+Adobe (Photoshop, Illustrator, Premiere pro, and Indesign), Figma, and Notion
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
@@ -152,21 +185,21 @@ Traditional and Digital
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-Adobe designing 𒊹𒊹𒊹𒊹
+Programming 𒊹𒊹𒊹
 </span>  
-Photoshop, Illustrator, Premiere pro, and Indesign
+Python, Arduino(C++) and Jekyll
+<br>
+
+<span style = "font-size: $type-size-4; font-weight: 600;">
+Design Research 𒊹𒊹𒊹
+</span>  
+Statistic analysis (SPSS, Python), Focus groups, Surveys, Thematic analysis, Usability testing, and Cultural probe 
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
 3D modeling & 3D printing 𒊹𒊹𒊹
 </span>  
 Fusion 360, Rhino, and 3D MAX
-<br>
-
-<span style = "font-size: $type-size-4; font-weight: 600;">
-Programming 𒊹𒊹𒊹
-</span>  
-Python and jekyll
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
@@ -193,4 +226,3 @@ English 𒊹𒊹𒊹𒊹
 Japanese (Speaking) 𒊹𒊹𒊹𒊹  
 Chinese 𒊹
 </span> 
-
