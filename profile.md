@@ -28,14 +28,14 @@ Education
 Master's Course of Engineering, KAIST, Daejeon, South Korea
 </span>  
 September 2023 — August 2025  
-Industrial Design
+Industrial Design (GPA 3.9 / 4.3)
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Bachelor of Arts, Hongik University, Seoul, South Korea
 </span>  
 March 2018 — February 2023  
-Painting
+Painting (GPA 4.12 / 4.5)
 <br>
 <br>
 
@@ -137,7 +137,7 @@ Delivered user scenarios and storyboards with drawing skills, presenting evaluat
 Partner researcher at NRF (National Research Foundation), Daejeon, South Korea
 </span>  
 Feb 2024 — August 2025  
-Participated as general chair of XR music concert workshops and seminars  
+Participated as a general chair of XR music concert workshops and seminars  
 Created [a website](https://sites.google.com/view/nrfworkshop) for introducing and organizing the project  
 Project name: "Listening Though the Body: Combining Visual, Auditory, and Haptic Interaction While Designing a Concert Space for XR"
 <br>
