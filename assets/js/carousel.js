@@ -3,21 +3,29 @@ document.addEventListener('DOMContentLoaded', function () {
   const glideElements = document.querySelectorAll('.glide-main');
 
   glideElements.forEach((glideElement) => {
-      const glide = new Glide(glideElement, {
-          type: 'carousel',
-          startAt: 0,
-          perView: 1,
-          animationDuration: 0,
-      });
+        const glide = new Glide(glideElement, {
+            type: 'carousel',
+            startAt: 0,
+            perView: 1,
+            animationDuration: 100,
+        });
 
-      // Adjust the carousel height for the current carousel
-      function adjustCarouselHeight() {
-          const activeSlide = glideElement.querySelector('.glide__slide--active');
-          const glideTrack = glideElement.querySelector('.glide__track');
-          if (activeSlide && glideTrack) {
-              glideTrack.style.height = `${activeSlide.offsetHeight}px`;
+        // Ensure the first slide is set as active
+        function setInitialActiveSlide() {
+          const firstSlide = glideElement.querySelector('.glide__slide');
+          if (firstSlide) {
+            firstSlide.classList.add('glide__slide--active');
           }
-      }
+        }
+    
+      // Adjust the carousel height for the current carousel
+        function adjustCarouselHeight() {
+            const activeSlide = glideElement.querySelector('.glide__slide--active');
+            const glideTrack = glideElement.querySelector('.glide__track');
+            if (activeSlide && glideTrack) {
+                glideTrack.style.height = `${activeSlide.offsetHeight}px`;
+            }
+        }
 
       // Adjust thumbnail sizes for the current carousel
       function adjustThumbnailSize() {
@@ -76,8 +84,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // Mount Glide and add resize listeners
+      setInitialActiveSlide();
       glide.mount();
-
+    
       adjustCarouselHeight();
       adjustThumbnailSize();
 
