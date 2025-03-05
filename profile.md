@@ -76,7 +76,7 @@ Awards
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-[2024 Prototype for Humanity top 100](https://www.prototypesforhumanity.com/project/oxynizer)
+[2024 Prototype for Humanity top 100 in Dubai](https://www.prototypesforhumanity.com/project/oxynizer)
 </span>   
 "Oxynizer: Sustainable & Non-electric Oxygen generator", South Korea
 <br>
@@ -128,7 +128,7 @@ Work experiences
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 UX Researcher at NH Investment & Securities Co., Ltd Research center in KAIST, Daejeon, South Korea (Industry-Academia)  
 </span>
-Sep 2023 - Aug 2025   
+September 2023 - August 2025   
 Identified pain points in virtual investment experiences and AI agent-assisted investment services through thematic coding  
 Delivered user scenarios and storyboards with drawing skills, presenting evaluation results
 <br>
@@ -136,7 +136,7 @@ Delivered user scenarios and storyboards with drawing skills, presenting evaluat
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Partner researcher at NRF (National Research Foundation), Daejeon, South Korea
 </span>  
-Feb 2024 — August 2025  
+February 2024 — August 2025  
 Participated as a general chair of XR music concert workshops and seminars  
 Created [a website](https://sites.google.com/view/nrfworkshop) for introducing and organizing the project  
 Project name: "Listening Though the Body: Combining Visual, Auditory, and Haptic Interaction While Designing a Concert Space for XR"
@@ -145,8 +145,8 @@ Project name: "Listening Though the Body: Combining Visual, Auditory, and Haptic
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Partner researcher at ITRC, Daejeon, South Korea
 </span>  
-Jul 2024 — August 2025   
-Submitted a demo in SIGGRAPH 2025 (emerging technologies) about musical education using fiducial marker in XR  
+July 2024 — August 2025   
+Submitted a demo in SIGGRAPH 2025 (emerging technologies) about augmenting musical instruments using fiducial marker in XR  
 Project name: "SpaceTop: Spatial Computing HCI Technology for Delivering XR Productivity Spaces Everywhere"
 <br>  
 <br>
@@ -187,13 +187,13 @@ Traditional and Digital
 <span style = "font-size: $type-size-4; font-weight: 600;">
 Programming 𒊹𒊹𒊹
 </span>  
-Python, Arduino(C++) and Jekyll
+Python, Arduino(C++), and Jekyll
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
 Design Research 𒊹𒊹𒊹
 </span>  
-Statistic analysis (SPSS, Python), Focus groups, Surveys, Thematic analysis, Usability testing, and Cultural probe 
+Statistical analysis (SPSS, Python), Focus groups, Surveys, Thematic analysis, Usability testing, and Cultural probe 
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">

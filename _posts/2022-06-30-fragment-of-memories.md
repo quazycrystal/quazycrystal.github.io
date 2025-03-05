@@ -27,7 +27,7 @@ The sculpture reveals different shapes and fragments of memory depending on the 
 
 <div style = "text-align: center;"> 
 <br>
-Jiwon Kim, < Fragment of memories > Clay, Hemp Rope, and Steel Rods 31cm×18cm, 2022
+Jiwon Kim, < Fragment of memories > Clay, Hemp Rope, and Steel Rods, 31cm×18cm, 2022
 </div>
 <br>
 
