@@ -187,7 +187,7 @@ Traditional and Digital
 <span style = "font-size: $type-size-4; font-weight: 600;">
 Programming 𒊹𒊹𒊹
 </span>  
-Python, Arduino(C++), and Jekyll
+Python, Arduino(C++), and Github page programming experience (Ruby)
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">

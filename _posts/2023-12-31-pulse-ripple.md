@@ -7,7 +7,7 @@ header:
     teaser: /assets/img/2023-pulse-ripple/a.jpeg
 tags:
 - UX Design
-- Arduion
+- Arduino
 ---
 ## Pulse ripple
 <br>
