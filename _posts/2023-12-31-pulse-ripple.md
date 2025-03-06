@@ -32,7 +32,7 @@ The system operates with pulse sensors, an Arduino, a motor driver, and DC motor
 
 <div style = "text-align: center;"> 
 <br>
-Jiwon Kim, < Pulse ripple - Installation > DC motor, Arduino, and acrylic tank with wooden pieces, 70cm×30cm×15cm, 2023
+Jiwon Kim, < Pulse ripple > DC motor, Arduino, and acrylic tank with wooden pieces, 70cm×30cm×15cm, 2023
 </div>
 <br>
 
