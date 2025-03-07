@@ -13,7 +13,7 @@ tags:
 <br>
 Pulse Ripple is a interactive interface that transforms the user’s pulse signal into water ripples. 
 This new interface depicts user interaction through intersecting water ripples created by the user’s pulse signals. 
-Users n experience an engaging and immersive visual display as the Pulse Ripple generates constantly evolving water ripples in response to their pulse. 
+Users experience an engaging and immersive visual display as the Pulse Ripple generates constantly evolving water ripples in response to their pulse. 
 
 The interaction is intuitive, starting with a simple touch of a fingertip on the sensor. This system can be adapted for various applications, such as public installations where multiple pulse sensors and magnetic balls create interactive displays for groups. It can also serve as an educational tool in museums, incorporating different sensor types like ultrasonic sensors to teach users about digital and analog signals. Additionally, Pulse Ripple is well-suited for meditation, allowing users to observe the rhythm of their heartbeat through water ripples, helping them interpret their physical and emotional state while providing a visually soothing experience.
 
