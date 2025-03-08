@@ -22,8 +22,9 @@ The Pulse Ripple tank features an H-structure that separates water from the mech
 The system operates with pulse sensors, an Arduino, a motor driver, and DC motors. When users place a fingertip on the sensor, their heartbeat is detected and transmitted to the Arduino, which synchronizes the motor speed with their pulse. Spinning motors with neodymium magnets create alternating attraction and repulsion forces, moving the magnetic balls and generating water ripples. The interaction ends when the user removes their finger from the sensor.
 <br>
 <br>
-
+<div class="left">
 <img src="/assets/img/2023-pulse-ripple/b.jpeg" style="width:auto; height:auto;"/>
+</div>
 
 <div class="left">
 <img src="/assets/img/2023-pulse-ripple/c.jpeg" style="width:auto; height:auto;"/>
