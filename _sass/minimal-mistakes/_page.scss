@@ -335,6 +335,7 @@ body {
 //   height: auto;
 // }
 .glide__slide img {
+  border-radius: $border-radius; // Apply rounded corners to each slide
   width: 100%;
   height: auto;
   max-height: 100%;
@@ -345,6 +346,13 @@ body {
 
 .glide__track {
   transition: height 0.2s ease-in-out;
+}
+
+/* Mobile-Specific Fix */
+@media (max-width: 768px) {
+  .glide__slide img {
+      max-height: calc(80vh - 50px); /* Adjust for smaller screens */
+  }
 }
 
 /*

@@ -28,6 +28,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 glideTrack.style.height = `${maxHeight}px`;
             }
         }
+        // Adjust the carousel height for the current carousel
+         function adjustCarouselHeight() {
+            const activeSlide = glideElement.querySelector('.glide__slide--active');
+            const glideTrack = glideElement.querySelector('.glide__track');
+            if (activeSlide && glideTrack) {
+                glideTrack.style.height = `${activeSlide.offsetHeight}px`;
+            }
+        }
 
         // Adjust thumbnail sizes dynamically
         function adjustThumbnailSize() {
