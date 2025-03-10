@@ -4,7 +4,7 @@ permalink: /works/international-groceries
 layout: posts-works
 categories: "Works"
 header:
-    teaser: "/assets/img/2024-groceries/a.jpeg"
+    teaser: "/assets/img/2024-groceries/m.jpeg"
 tags:
 - UX Design
 ---
