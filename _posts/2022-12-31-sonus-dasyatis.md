@@ -6,7 +6,7 @@ categories: "Works"
 header:
     teaser: /assets/img/2022-sonus-dasyatis/a.jpeg
 tags:
-- Sound Art
+- Audio
 - Arduino
 ---
 ## Sonus dasyatis
