@@ -45,6 +45,7 @@ Jiwon Kim, < Pulse ripple > DC motor, Arduino, and acrylic tank with wooden piec
     <img src="/assets/img/2023-pulse-ripple/zg.jpeg" width="75" height="75" data-index="2">
     <img src="/assets/img/2023-pulse-ripple/zh.jpeg" width="75" height="75" data-index="3">
     <img src="/assets/img/2023-pulse-ripple/zi.jpeg" width="75" height="75" data-index="4">
+    <img src="/assets/img/2023-pulse-ripple/zj.jpeg" width="75" height="75" data-index="5">
 
 </div>
 <!-- Main Carousel -->
@@ -71,6 +72,10 @@ Jiwon Kim, < Pulse ripple > DC motor, Arduino, and acrylic tank with wooden piec
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/i.jpeg">
             <div class="slide-caption">< Pulse ripple > - Tank Exploded view</div>
+        </li>
+        <li class="glide__slide">
+            <img src="/assets/img/2023-pulse-ripple/j.jpeg">
+            <div class="slide-caption">< Pulse ripple > - Expected Application</div>
         </li>
     </ul>
     </div>

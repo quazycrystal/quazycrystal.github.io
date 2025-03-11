@@ -1,13 +1,13 @@
 ---
-title: "Sound Art"
+title: "Audio"
 layout: archive
-permalink: /works/sound-art/
+permalink: /works/audio/
 entries_layout: grid # posts layout (list/grid)
 #author_profile: true
 #sidebar_main: true
 ---
 <body oncontextmenu="return false;">
-{% assign tag = "sound-art" %} <!--tag name-->
+{% assign tag = "Audio" %} <!--tag name-->
 {% assign posts = site.categories.Works %}
   <ul> 
   {% for post in posts %}

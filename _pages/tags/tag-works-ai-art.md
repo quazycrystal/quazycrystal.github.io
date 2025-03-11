@@ -1,13 +1,13 @@
 ---
-title: "Python"
+title: "AI Art"
 layout: archive
-permalink: /works/python/
+permalink: /works/ai-art/
 entries_layout: grid # posts layout (list/grid)
 #author_profile: true
 #sidebar_main: true
 ---
 <body oncontextmenu="return false;">
-{% assign tag = "Python" %} <!--tag name-->
+{% assign tag = "AI Art" %} <!--tag name-->
 {% assign posts = site.categories.Works %}
   <ul> 
   {% for post in posts %}
