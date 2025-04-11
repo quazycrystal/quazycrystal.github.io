@@ -126,32 +126,32 @@ Work experiences
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
-UX Researcher at NH Investment & Securities Co., Ltd Research center in KAIST, Daejeon, South Korea (Industry-Academia)  
-</span>
-September 2023 - August 2025   
-Identified pain points in virtual investment experiences and AI agent-assisted investment services through thematic coding  
-Delivered user scenarios and storyboards with drawing skills, presenting evaluation results
+Partner researcher at ITRC, Daejeon, South Korea
+</span>  
+January 2025 — August 2025   
+Submitted a demo in SIGGRAPH 2025 (emerging technologies) about augmenting musical instruments using fiducial marker in XR  
+Project name: "SpaceTop: Spatial Computing HCI Technology for Delivering XR Productivity Spaces Everywhere"
+<br>  
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Partner researcher at NRF (National Research Foundation), Daejeon, South Korea
 </span>  
-February 2024 — August 2025  
+May 2024 — April 2025  
 Participated as a general chair of XR music concert workshops and seminars  
 Created [a website](https://sites.google.com/view/nrfworkshop) for introducing and organizing the project  
 Project name: "Listening Though the Body: Combining Visual, Auditory, and Haptic Interaction While Designing a Concert Space for XR"
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
-Partner researcher at ITRC, Daejeon, South Korea
-</span>  
-July 2024 — August 2025   
-Submitted a demo in SIGGRAPH 2025 (emerging technologies) about augmenting musical instruments using fiducial marker in XR  
-Project name: "SpaceTop: Spatial Computing HCI Technology for Delivering XR Productivity Spaces Everywhere"
-<br>  
+UX Researcher at NH Investment & Securities Co., Ltd Research center in KAIST, Daejeon, South Korea (Industry-Academia)  
+</span>
+September 2023 - April 2025   
+Identified pain points in virtual investment experiences and AI agent-assisted investment services through thematic coding  
+Delivered user scenarios and storyboards with drawing skills, presenting evaluation results
 <br>
 
-<!-- <span style = "font-size: $type-size-4; font-weight: 600;"> 
+<span style = "font-size: $type-size-4; font-weight: 600;"> 
 Intern curator at [Alternative Space LOOP](http://altspaceloop.com/exhibitions/hcy-returnhome-2021), Seoul, South Korea
 </span>  
 June 2021 — August 2021  
@@ -165,7 +165,7 @@ May 2021 — December 2021
 Introducing artist's works, demonstrating art using various
 medium, and engaging student's interest in art
 <br>
-<br> -->
+<br>
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Skills
@@ -175,7 +175,7 @@ Skills
 <span style = "font-size: $type-size-4; font-weight: 600;">
 Design tools 𒊹𒊹𒊹𒊹
 </span>  
-Adobe (Photoshop, Illustrator, Premiere pro, and Indesign), Figma, and Notion
+Adobe suite (Photoshop, Illustrator, Premiere pro, and Indesign), Figma, and Notion
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
