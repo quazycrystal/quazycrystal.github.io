@@ -40,18 +40,23 @@ Jiwon Kim, < Pulse ripple > DC motor, Arduino, and acrylic tank with wooden piec
 <div class="carousel-container">
 <!-- Thumbnails -->
 <div class="carousel-thumbnails">
-    <img src="/assets/img/2023-pulse-ripple/ze.jpeg" width="75" height="75" data-index="0">
-    <img src="/assets/img/2023-pulse-ripple/zf.jpeg" width="75" height="75" data-index="1">
-    <img src="/assets/img/2023-pulse-ripple/zg.jpeg" width="75" height="75" data-index="2">
-    <img src="/assets/img/2023-pulse-ripple/zh.jpeg" width="75" height="75" data-index="3">
-    <img src="/assets/img/2023-pulse-ripple/zi.jpeg" width="75" height="75" data-index="4">
-    <img src="/assets/img/2023-pulse-ripple/zj.jpeg" width="75" height="75" data-index="5">
-
+    <img src="/assets/img/2023-pulse-ripple/zde.jpeg" width="75" height="75" data-index="0">
+    <img src="/assets/img/2023-pulse-ripple/ze.jpeg" width="75" height="75" data-index="1">
+    <img src="/assets/img/2023-pulse-ripple/zf.jpeg" width="75" height="75" data-index="2">
+    <img src="/assets/img/2023-pulse-ripple/zg.jpeg" width="75" height="75" data-index="3">
+    <img src="/assets/img/2023-pulse-ripple/zh.jpeg" width="75" height="75" data-index="4">
+    <img src="/assets/img/2023-pulse-ripple/zi.jpeg" width="75" height="75" data-index="5">
+    <img src="/assets/img/2023-pulse-ripple/zj.jpeg" width="75" height="75" data-index="6">
 </div>
 <!-- Main Carousel -->
 <div class="glide glide-main">
     <div class="glide__track" data-glide-el="track">
     <ul class="glide__slides">
+        <li class="glide__slide">
+            <img src="/assets/img/2023-pulse-ripple/de.jpeg">
+            <div class="slide-caption">< Pulse ripple > - Float making
+            </div>
+        </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/e.jpeg">
             <div class="slide-caption">< Pulse ripple > - System
@@ -67,7 +72,7 @@ Jiwon Kim, < Pulse ripple > DC motor, Arduino, and acrylic tank with wooden piec
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/h.jpeg">
-            <div class="slide-caption">< Pulse ripple > - How it Works</div>
+            <div class="slide-caption">< Pulse ripple > - How it works</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/i.jpeg">
