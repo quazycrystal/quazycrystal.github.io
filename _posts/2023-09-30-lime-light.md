@@ -42,7 +42,7 @@ It is a collection of pieces delivering dreamy light inspired by everyday scenes
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-lime-light/d.jpeg">
-            <div class="slide-caption">Jiwon Kim, < Ginger root> Digital drawing, 4000×2000(px), 2023</div>
+            <div class="slide-caption">Jiwon Kim, < Ginger root > Digital drawing, 4000×2000(px), 2023</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-lime-light/e.jpeg">
