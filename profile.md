@@ -149,7 +149,6 @@ UX Researcher at NH Investment & Securities Co., Ltd Research center in KAIST, D
 September 2023 - April 2025   
 Identified pain points in virtual investment experiences and AI agent-assisted investment services through thematic coding  
 Delivered user scenarios and storyboards with drawing skills, presenting evaluation results
-<br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Intern curator at [Alternative Space LOOP](http://altspaceloop.com/exhibitions/hcy-returnhome-2021), Seoul, South Korea

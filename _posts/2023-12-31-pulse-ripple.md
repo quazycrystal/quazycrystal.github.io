@@ -37,50 +37,55 @@ Jiwon Kim, < Pulse ripple > DC motor, Arduino, and acrylic tank with wooden piec
 </div>
 <br>
 
+<img src="/assets/img/2023-pulse-ripple/l.jpeg" style="width:auto; height:auto;"/>
+<div style = "text-align: center;"> 
+<br>
+< Pulse Ripple > - Expected Application
+</div>
+<br>
+
 <div class="carousel-container">
 <!-- Thumbnails -->
 <div class="carousel-thumbnails">
-    <img src="/assets/img/2023-pulse-ripple/zde.jpeg" width="75" height="75" data-index="0">
-    <img src="/assets/img/2023-pulse-ripple/ze.jpeg" width="75" height="75" data-index="1">
-    <img src="/assets/img/2023-pulse-ripple/zf.jpeg" width="75" height="75" data-index="2">
-    <img src="/assets/img/2023-pulse-ripple/zg.jpeg" width="75" height="75" data-index="3">
-    <img src="/assets/img/2023-pulse-ripple/zh.jpeg" width="75" height="75" data-index="4">
-    <img src="/assets/img/2023-pulse-ripple/zi.jpeg" width="75" height="75" data-index="5">
-    <img src="/assets/img/2023-pulse-ripple/zj.jpeg" width="75" height="75" data-index="6">
+    <img src="/assets/img/2023-pulse-ripple/ze.jpeg" width="75" height="75" data-index="0">
+    <img src="/assets/img/2023-pulse-ripple/zf.jpeg" width="75" height="75" data-index="1">
+    <img src="/assets/img/2023-pulse-ripple/zg.jpeg" width="75" height="75" data-index="2">
+    <img src="/assets/img/2023-pulse-ripple/zh.jpeg" width="75" height="75" data-index="3">
+    <img src="/assets/img/2023-pulse-ripple/zi.jpeg" width="75" height="75" data-index="4">
+    <img src="/assets/img/2023-pulse-ripple/zj.jpeg" width="75" height="75" data-index="5">
+    <img src="/assets/img/2023-pulse-ripple/zk.jpeg" width="75" height="75" data-index="6">
 </div>
 <!-- Main Carousel -->
 <div class="glide glide-main">
     <div class="glide__track" data-glide-el="track">
     <ul class="glide__slides">
         <li class="glide__slide">
-            <img src="/assets/img/2023-pulse-ripple/de.jpeg">
-            <div class="slide-caption">< Pulse ripple > - Float making
-            </div>
-        </li>
-        <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/e.jpeg">
-            <div class="slide-caption">< Pulse ripple > - System
-            </div>
+            <div class="slide-caption">< Pulse ripple > - Working process: Concept Drawing</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/f.jpeg">
-            <div class="slide-caption">< Pulse ripple > - Motors and Arduino </div>
+            <div class="slide-caption">< Pulse ripple > - Working process: Urethane Magnetic Buoy</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/g.jpeg">
-            <div class="slide-caption">< Pulse ripple > - Circuit Schematic</div>
+            <div class="slide-caption">< Pulse ripple > - Working process: Circuit Schematic</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/h.jpeg">
-            <div class="slide-caption">< Pulse ripple > - How it works</div>
+            <div class="slide-caption">< Pulse ripple > - Working process: Circuit Construction</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/i.jpeg">
-            <div class="slide-caption">< Pulse ripple > - Tank Exploded view</div>
+            <div class="slide-caption">< Pulse ripple > - Working process: Working Principle</div>
         </li>
         <li class="glide__slide">
             <img src="/assets/img/2023-pulse-ripple/j.jpeg">
-            <div class="slide-caption">< Pulse ripple > - Expected Application</div>
+            <div class="slide-caption">< Pulse ripple > - Working process: Tank Exploded View</div>
+        </li>
+        <li class="glide__slide">
+            <img src="/assets/img/2023-pulse-ripple/k.jpeg">
+            <div class="slide-caption">< Pulse ripple > - Working process: Completed System</div>
         </li>
     </ul>
     </div>
