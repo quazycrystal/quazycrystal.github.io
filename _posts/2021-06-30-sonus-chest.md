@@ -30,7 +30,7 @@ As a MIDI-based device, Sonus Chest is fully compatible with standard digital au
 
 <div style = "text-align: center;"> 
 <br>
-Jiwon Kim, < Sonus chest > Arduino, membrane potentiometer, and tin case, 25.5cm×19cm×6cm, 2021
+Jiwon Kim, < Sonus chest > Arduino, Membrane potentiometer, Tin case, 25.5cm×19cm×6cm, 2021
 </div>
 <br>
 
