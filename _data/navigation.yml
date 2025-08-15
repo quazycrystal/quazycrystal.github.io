@@ -4,9 +4,9 @@ main:
 #   url: /
   - title: "Profile"
     url: /profile/
-  - title: "Works"
-    url: /works/
-  - title: "Geeks"
-    url: /geeks/
+  - title: "Design"
+    url: /design/
+  - title: "Art"
+    url: /art/
   - title: <i class="fa-duotone fa-solid fa-magnifying-glass"></i>
     url: /search/
