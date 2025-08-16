@@ -17,7 +17,7 @@ Art is mischievous and nebulous thought, set free
 
 <!--posts-->
 <ul> 
-  {% assign posts = site.categories.Works %}
+  {% assign posts = site.categories.Design %}
   {% for post in posts %} 
       {% include archive-single.html type=page.entries_layout %} 
   {% endfor %}

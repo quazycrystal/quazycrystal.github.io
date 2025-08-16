@@ -190,40 +190,20 @@ html, body { margin:0; padding:0; background:#111; }
 
 <!--  <img class="scene" id="scene1" src="assets\img\index1.png">
       <img class="scene" id="scene2" src="assets\img\index2.png">
-      <img class="scene" id="scene3" src="assets\img\index3.png"> -->
+      <img class="scene" id="scene3" src="assets\img\index3.png">
 
-
-
-<!-- iOS 주소창 수축으로 100vh가 오락가락하면 아래 주석 해제(선택) 
-<script>
-  const setVH = () => {
-    const h = window.innerHeight;
-    document.querySelectorAll('#home-snap, .panel').forEach(el => el.style.height = h + 'px');
-  };
-  window.addEventListener('resize', setVH, { passive: true });
-  setVH();
-</script>
--->
-
-
-<main id="home-snap" aria-label="3컷 스크롤 메인">
-  <!-- 이미지 경로: 사이트 기준 + relative_url -->
-  <section class="panel" style="background-image:url('/assets/img/2020-rootless/a.jpeg')"></section>
-  <section class="panel" style="background-image:url('/assets/img/2020-rootless/b.jpeg')"></section>
-  <section class="panel" style="background-image:url('/assets/img/2020-rootless/c.jpeg')"></section>
-
-<script>
   // iOS 주소창 수축/확장 대응(필요시 사용)
   // 주석 해제하면 실제 뷰포트 px로 강제 고정됩니다.
-  /*
+ 
+  <script>
   const setVH = () => {
     const h = window.innerHeight;
     document.querySelectorAll('#home-snap, .panel').forEach(el => el.style.height = h + 'px');
   };
   window.addEventListener('resize', setVH, { passive: true });
   setVH();
-  */
-</script>
+  </script>
+  -->
 
 
 <!-- ---
