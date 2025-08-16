@@ -47,12 +47,11 @@ title: Home
   .archive { margin: 0 !important; padding: 0 !important; }
   #page-title, .breadcrumbs, .sidebar { display: none !important; }
 
-  /* 3) 인터랙티브 sticky 씬 (← 여기 앞의 ‘.’ 오타 삭제!!) */
-  .scroll-track { height: 300vh; position: relative; }
-  .sticky-stage { position: sticky; top: 0; height: 100vh; overflow: hidden; background: linear-gradient(#bde6ff,#e8f6ff); }
+  /* 3) 인터랙티브 sticky 씬 */
+  .scroll-track { height: 600vh; position: relative; }
+  .sticky-stage { position: sticky; top: 0; height: 100vh; overflow: hidden; background: linear-gradient(#bee6ff,#71c9ff); }
   .stage { position: relative; width: 100vw; height: 100vh; }
   .layer { position: absolute; inset: 0; display: grid; place-items: center; will-change: transform, opacity; pointer-events: none; }
-  svg { width: min(100vw, 1400px); height: auto; }
 
   @media (prefers-reduced-motion: reduce) {
     .layer { transition: none !important; }
@@ -65,98 +64,133 @@ title: Home
 
 <div class="scroll-track">
   <section class="sticky-stage">
-    <div class="stage">
-      <!-- Ground: 항상 보임 -->
-      <div class="layer" id="groundLayer">
-        <svg viewBox="0 0 1200 700" aria-label="땅">
-          <defs>
-            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="#bde6ff"/><stop offset="100%" stop-color="#e8f6ff"/>
-            </linearGradient>
-          </defs>
-          <rect x="0" y="0" width="1200" height="700" fill="url(#sky)"/>
-          <rect x="0" y="420" width="1200" height="280" fill="#7a5b3a"/>
-          <ellipse cx="300" cy="420" rx="380" ry="120" fill="#866246" opacity=".9"/>
-          <ellipse cx="900" cy="430" rx="420" ry="140" fill="#6e5134" opacity=".95"/>
-        </svg>
-      </div>
-
-      <!-- Person + Seeds -->
-      <div class="layer" id="personLayer" style="opacity:0; transform:translateY(24px) scale(.985)">
-        <svg viewBox="0 0 1200 700" aria-label="씨 뿌리는 사람">
-          <rect x="0" y="0" width="1200" height="700" fill="transparent"/>
-          <g transform="translate(760,240) rotate(8)">
-            <rect x="-120" y="-30" width="240" height="60" rx="30" fill="#f1c6a6" />
-            <circle cx="140" cy="-5" r="26" fill="#f1c6a6"/>
-          </g>
-          <g id="seeds">
-            <circle cx="700" cy="330" r="6" fill="#3b2a1a"/>
-            <circle cx="730" cy="360" r="5" fill="#3b2a1a"/>
-            <circle cx="760" cy="340" r="4.8" fill="#3b2a1a"/>
-            <circle cx="720" cy="380" r="5.2" fill="#3b2a1a"/>
-            <circle cx="745" cy="355" r="4.5" fill="#3b2a1a"/>
-          </g>
-        </svg>
-      </div>
-
-      <!-- Tree -->
-      <div class="layer" id="treeLayer" style="opacity:0; transform:translateY(36px) scale(.97)">
-        <svg viewBox="0 0 1200 700" aria-label="나무">
-          <rect x="0" y="0" width="1200" height="700" fill="transparent"/>
-          <rect x="590" y="330" width="20" height="180" fill="#64462a" rx="8"/>
-          <g id="crown">
-            <circle cx="600" cy="320" r="90" fill="#5fb36a"/>
-            <circle cx="540" cy="360" r="75" fill="#63be70"/>
-            <circle cx="660" cy="360" r="75" fill="#63be70"/>
-            <circle cx="600" cy="270" r="65" fill="#56a862"/>
-          </g>
-        </svg>
-      </div>
+    <div class="frame">
+      <!-- PNG 3장 -->
+      <img class="scene" id="scene1" src="assets\img\index1.png">
+      <img class="scene" id="scene2" src="assets\img\index2.png">
+      <img class="scene" id="scene3" src="assets\img\index3.png">
     </div>
   </section>
 </div>
 
+<style>
+/* ===== PC 전용 최소 필수 CSS: 9:16 고정 + 오버플로우 방지 ===== */
+html, body { margin:0; padding:0; background:#111; }
+
+/* 스크롤 구간이 뷰포트보다 길어야 전환이 발생합니다 */
+.scroll-track { min-height: 250vh; }
+
+/* sticky 스테이지 */
+.sticky-stage {
+  position: sticky;
+  top: 0;
+}
+
+.frame {
+  position: relative;
+  height: 150vh;           /* ← 여기만 줄이면 크기만 변하고 */
+  aspect-ratio: 9 / 16;   /* 비율 유지 */
+  width: auto;
+  margin: 0 auto;         /* 위 여백 없음 = 위로 붙음 */
+  overflow: hidden;
+  transform: translate(-20vw, -20vh);
+
+}
+
+/* 장면 3장을 프레임 내부에 정확히 겹치기 */
+.scene {
+  position: absolute;
+  inset: 0;             /* top/right/bottom/left: 0 */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  /* 비율 유지 + 오버플로우 방지(레터박스 허용) */
+  opacity: 0;           /* JS가 0→1로 전환 */
+  transform: translateY(0) scale(1);
+  will-change: opacity, transform;
+}
+
+/* 첫 장면은 로드 직후 바로 보이게(초기 깜빡임 방지) */
+#scene1 { opacity: 1; }
+</style>
+
 <script>
 (function(){
-  const track  = document.querySelector('.scroll-track');
-  const ground = document.getElementById('groundLayer');
-  const person = document.getElementById('personLayer');
-  const tree   = document.getElementById('treeLayer');
-
-  const clamp = (v,min,max)=>Math.min(max, Math.max(min, v));
+  const clamp   = (v,min,max)=>Math.min(max, Math.max(min, v));
   const invLerp = (a,b,v)=> clamp((v-a)/(b-a), 0, 1);
   const easeInOutCubic = t => t<.5 ? 4*t*t*t : 1 - Math.pow(-2*t+2, 3)/2;
-  const ease01 = t => easeInOutCubic(clamp(t,0,1));
+  const ease01  = t => easeInOutCubic(clamp(t,0,1));
 
-  function update(){
-    const total = track.offsetHeight - window.innerHeight;
-    const p = total>0 ? clamp((window.scrollY - track.offsetTop) / total, 0, 1) : 0;
+  const track  = document.querySelector('.scroll-track');
+  const s1 = document.getElementById('scene1');
+  const s2 = document.getElementById('scene2');
+  const s3 = document.getElementById('scene3');
 
-    /* Ground: 살짝 패럴랙스 */
-    ground.style.transform = `translateY(${ -10*p }px) scale(${ 1 - 0.02*p })`;
-    ground.style.opacity = '1';
-
-    /* Person IN(0.12~0.32), OUT(0.55~0.75) */
-    const aInPerson   = ease01(invLerp(0.12, 0.32, p));
-    const aOutPerson  = ease01(invLerp(0.55, 0.75, p));
-    const alphaPerson = clamp(aInPerson * (1 - aOutPerson), 0, 1);
-    person.style.opacity   = String(alphaPerson);
-    person.style.transform = `translateY(${ 24 - 24*alphaPerson }px) scale(${ 0.985 + 0.015*alphaPerson })`;
-
-    /* Tree IN(0.45~0.80) */
-    const alphaTree = ease01(invLerp(0.45, 0.80, p));
-    tree.style.opacity   = String(alphaTree);
-    tree.style.transform = `translateY(${ 36 - 36*alphaTree }px) scale(${ 0.97 + 0.03*alphaTree })`;
+  // 진행도 p: 0 → 1
+  function getProgress() {
+    const rect = track.getBoundingClientRect();
+    const vh = window.innerHeight;
+    const total = rect.height - vh;
+    if (total <= 0) return 0;
+    return clamp((-rect.top) / total, 0, 1); // track 상단이 위로 올라갈수록 증가
   }
 
-  const onScroll=()=>requestAnimationFrame(update);
+  // scene1은 "처음부터 보임" → p=0에서 alpha=1이 되도록 설계
+  // scene1: HOLD(0.00~0.28) → OUT(0.28~0.44)
+  function alphaScene1(p) {
+    const fadeOut = ease01(invLerp(0.2, 0.45, p));
+    return clamp(1 - fadeOut, 0, 1);
+  }
+  // scene2: IN(0.32~0.50) → HOLD(0.50~0.64) → OUT(0.64~0.80)
+  function alphaScene2(p) {
+    const aIn  = ease01(invLerp(0.3, 0.55, p));
+    const aOut = ease01(invLerp(0.6, 0.80, p));
+    return clamp(aIn * (1 - aOut), 0, 1);
+  }
+  // scene3: IN(0.64~0.82) → HOLD(0.82~1.00)
+  function alphaScene3(p) {
+    return ease01(invLerp(0.6, 0.85, p));
+  }
+
+  function update(){
+    const p = getProgress();
+
+    // 알파 계산
+    const a1 = alphaScene1(p);
+    const a2 = alphaScene2(p);
+    const a3 = alphaScene3(p);
+
+    // 패럴랙스/스케일(미세)
+    const t1 = -10 * p, s1s = 1.00 + 0.02 * a1;
+    const t2 = -14 * p, s2s = 0.99 + 0.03 * a2;
+    const t3 = -18 * p, s3s = 0.98 + 0.04 * a3;
+
+    // 적용
+    s1.style.opacity   = a1.toFixed(3);
+    s1.style.transform = `translateY(${t1.toFixed(2)}px) scale(${s1s.toFixed(3)})`;
+    s2.style.opacity   = a2.toFixed(3);
+    s2.style.transform = `translateY(${t2.toFixed(2)}px) scale(${s2s.toFixed(3)})`;
+    s3.style.opacity   = a3.toFixed(3);
+    s3.style.transform = `translateY(${t3.toFixed(2)}px) scale(${s3s.toFixed(3)})`;
+  }
+
+  const onScroll = () => requestAnimationFrame(update);
   window.addEventListener('scroll', onScroll, { passive:true });
   window.addEventListener('resize', onScroll, { passive:true });
+
+  // 초기 렌더 (초기부터 scene1이 보이도록 설계되어 블랙 화면 없음)
   update();
+
+  // 이미지 프리로드(깜빡임 방지)
+  ['scene1.png','scene2.png','scene3.png'].forEach(src=>{
+    const i = new Image(); i.src = src;
+  });
 })();
 </script>
 
-<!-- 본문 내용은 비워 둡니다. 위 프런트매터의 SVG가 레이아웃에 주입됩니다. -->
+
+<!--  <img class="scene" id="scene1" src="assets\img\index1.png">
+      <img class="scene" id="scene2" src="assets\img\index2.png">
+      <img class="scene" id="scene3" src="assets\img\index3.png"> -->
 
 
 
