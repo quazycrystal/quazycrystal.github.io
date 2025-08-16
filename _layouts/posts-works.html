@@ -21,8 +21,14 @@ layout: default
   {{ content }}
 
   <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].other_works | default: "Other Works" }}</h3>
+  <!-- 디버그
+  posts size: {{ site.posts | size }}
+  collections.posts.docs size: {{ site.collections.posts.docs | size }}
+  source: {{ site.source }}
+  -->
 
-  {% assign posts = site.categories.Works %}
+  {% assign posts = site.posts %}
+  <!-- {% assign posts = site.categories.Works %} -->
   {% assign current_post_url = page.url %}
 
   {% assign filtered_posts = posts | where_exp: "post", "post.url != current_post_url" %}
@@ -32,6 +38,7 @@ layout: default
   <div class="entries-{{ entries_layout }}">
     {% include documents-collection.html entries=shuffled_posts type=entries_layout %}
   </div>
+
 
   <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 </div>

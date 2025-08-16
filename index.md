@@ -66,9 +66,9 @@ title: Home
   <section class="sticky-stage">
     <div class="frame">
       <!-- PNG 3장 -->
-      <img class="scene" id="scene1" src="assets\img\index1.png">
-      <img class="scene" id="scene2" src="assets\img\index2.png">
-      <img class="scene" id="scene3" src="assets\img\index3.png">
+      <img class="scene" id="scene1" src="/assets/img/index1.png">
+      <img class="scene" id="scene2" src="/assets/img/index2.png">
+      <img class="scene" id="scene3" src="/assets/img/index3.png">
     </div>
   </section>
 </div>
@@ -181,7 +181,7 @@ html, body { margin:0; padding:0; background:#111; }
   update();
 
   // 이미지 프리로드(깜빡임 방지)
-  ['scene1.png','scene2.png','scene3.png'].forEach(src=>{
+  ['/assets/img/index1.png','/assets/img/index2.png','/assets/img/index3.png'].forEach(src=>{
     const i = new Image(); i.src = src;
   });
 })();

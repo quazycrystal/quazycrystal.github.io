@@ -1,12 +1,11 @@
 ---
 title: "Fragment of memories (2022)"
-permalink: /works/fragment-of-memories
+permalink: /art/fragment-of-memories
 layout: posts-works
-categories: "Works"
+categories: "Art"
 header:
     teaser: /assets/img/2022-fragment-of-memories/d.jpeg
 tags:
-- Sculptures
 ---
 ## Fragment of memories
 <br>

@@ -1,12 +1,11 @@
 ---
 title: "lime light (2023)"
-permalink: /works/lime-light
+permalink: /art/lime-light
 layout: posts-works
-categories: "Works"
+categories: "Art"
 header:
     teaser: /assets/img/2023-lime-light/a.jpeg
 tags:
-- Paintings
 --- 
 
 ## Lime light

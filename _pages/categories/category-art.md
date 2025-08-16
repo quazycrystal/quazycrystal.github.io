@@ -5,13 +5,13 @@ permalink: /art/
 entries_layout: grid # posts layout
 ---
 <body oncontextmenu="return false;">
-Mischievous and nebulous thoughts
+Mischievous and nebulous creations
 
-{% include geeks-tag.html tag= site.tags %}
+{% include works-tag.html tag= site.tags %}
 
 <!--posts-->
 <ul>
-{% assign posts = site.categories.Geeks %}
+{% assign posts = site.categories.Art %}
 {% for post in posts %} 
     {% include archive-single.html type=page.entries_layout %} 
 {% endfor %}

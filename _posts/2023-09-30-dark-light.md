@@ -1,12 +1,11 @@
 ---
 title: "Dark light (2023)"
-permalink: /works/dark-light
+permalink: /art/dark-light
 layout: posts-works
-categories: "Works"
+categories: "Art"
 header:
     teaser: "/assets/img/2023-dark-light/a.jpeg"
 tags:
-- Paintings
 --- 
 
 ## Dark light

@@ -1,14 +1,11 @@
 ---
 title: "Sonus chest (2021)"
-permalink: /works/sonus-chest
+permalink: /art/sonus-chest
 layout: posts-works
-categories: "Works"
+categories: "Art"
 header:
     teaser: /assets/img/2021-sonus-chest/a.jpeg
 tags:
-- Product Design
-- Audio
-- Arduino
 ---
 ## Sonus chest
 <br>

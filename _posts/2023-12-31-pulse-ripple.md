@@ -1,13 +1,11 @@
 ---
 title: "Pulse ripple (2023)"
-permalink: /works/pulse-ripple
+permalink: /art/pulse-ripple
 layout: posts-works
-categories: "Works"
+categories: "Art"
 header:
     teaser: /assets/img/2023-pulse-ripple/a.jpeg
 tags:
-- UX Design
-- Arduino
 ---
 ## Pulse ripple
 <br>

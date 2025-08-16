@@ -1,8 +1,8 @@
 ---
 title: "Artist Statement (2023)"
-permalink: /geeks/artist-statement-2023
+permalink: /art/artist-statement-2023
 layout: posts-works
-categories: "Geeks"
+categories: "Art"
 tags:
 - Essay
 ---

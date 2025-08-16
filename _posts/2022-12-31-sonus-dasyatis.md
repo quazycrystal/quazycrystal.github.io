@@ -1,8 +1,8 @@
 ---
 title: "Sonus dasyatis (2022)"
-permalink: /works/sonus-dasyatis
+permalink: /art/sonus-dasyatis
 layout: posts-works
-categories: "Works"
+categories: "Art"
 header:
     teaser: /assets/img/2022-sonus-dasyatis/a.jpeg
 tags:

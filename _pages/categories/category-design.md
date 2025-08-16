@@ -7,12 +7,8 @@ entries_layout: grid # posts layout
 <body oncontextmenu="return false;">
 <!-- Experiments and embodiment of thoughts -->
 <!-- Experiments and embodiment of thoughts -->
-Design is thought, tested and made tangible for a clear purpose.
-(목적을 위해 시험되고 형태를 얻은 생각.)
+Solutions with a clear purpose, refined by studies
 
-Art
-
-Art is mischievous and nebulous thought, set free
 {% include works-tag.html tag= site.tags %}
 
 <!--posts-->
