@@ -4,8 +4,7 @@ title: Home
 home_assets: true
 ---
 
-<!-- 페이지 전용 CSS (전역 레이아웃에 이미 링크돼 있다면 이 줄은 생략 가능) -->
-<link rel="stylesheet" href="{{'assets\css\index.css'| relative_url}}">
+<!-- 페이지 전용 CSS, JS는 전역 레이아웃에 이미 링크됨 -->
 
 <div class="scroll-track">
   <section class="sticky-stage">
@@ -18,31 +17,26 @@ home_assets: true
       </div>
       <aside class="sidecopy" aria-live="polite">
         <div class="copy" id="text1">
-          <h3>Section 1</h3>
-          <p>1. From Fine Art to Human Interaction
-
-I began my creative career in fine art, working primarily with sound installations that invited audiences to explore space, movement, and perception. These works often prompted thoughtful responses from visitors, revealing their emotional and sensory impact. However, I came to realize that while these experiences were engaging, they did not create tangible changes in people’s daily lives. They were not driven by a specific need or aimed at solving real-world problems.
-</p>
+        ● ○ ○ 
+        <h3>Fine Art to Human Computer Interaction</h3>
+        <p> My creative journey began in fine <a href="{{ '/art/' | relative_url }}">art</a>, focusing on sound installations that encouraged audiences to explore body movement and space perception. However, it became clear that artistic practice does not always translate into tangible contributions to society.
+        </p>
         </div>
         <div class="copy" id="text2">
-          <h3>Section 2</h3>
-          <p>2. Recognizing the Need for Purposeful Design
-
-This realization led me to study industrial design, seeking a way to connect artistic expression with practical solutions. I became interested in how design could address social and environmental challenges, and I began developing concepts grounded in sustainability and inclusivity. The Oxynizer project became a turning point—it showed me how design could respond to urgent needs, improve health outcomes, and remain accessible to diverse communities.</p>
+        ○ ● ○
+        <h3>The Importance of Purposeful Design</h3>
+          <p>
+          The motivation to contribute society led to a pursuit of industrial design, as a way to channel artistic capabilities toward practical solutions to society. <a href="{{ '/design/oxynizer/' | relative_url }}">The Oxynizer project</a> was a turning point, demonstrating how design can address urgent life needs and remain accessible to diverse communities.</p>
         </div>
         <div class="copy" id="text3">
-          <h3>Section 3</h3>
-          <p>3. Designing for Social Impact
-
-Today, I integrate craftsmanship, technology, and human-centered design to create interactive systems that are both innovative and purposeful. My goal is to bridge the gap between artistic exploration and practical benefit, producing tangible designs that contribute to a more sustainable and equitable future. Each project is guided by the belief that good design can inspire, empower, and create lasting value for society.</p>
+          ○ ○ ●
+          <h3>Design for Social Impact</h3>
+          <p>Today, my practice is to create interactive systems that are both innovative and purposeful by integrating craftsmanship and human-centered design methods. The aim is to bridge artistic exploration with practical impact, advancing designs grounded in sustainability and inclusivity.</p>
         </div>
       </aside>
     </div>
   </section>
 </div>
-
-<!-- 페이지 전용 JS (전역 번들에 포함시켰다면 이 줄은 생략 가능) -->
-<script src="{{'assets\js\index.js'| relative_url}}" defer></script>
 
 <!--
   // iOS 주소창 수축/확장 대응(필요시 사용)
@@ -55,5 +49,5 @@ Today, I integrate craftsmanship, technology, and human-centered design to creat
   };
   window.addEventListener('resize', setVH, { passive: true });
   setVH();
-  </script>
+  </scrip. Each project is guided by the belief that good dest>
   -->
