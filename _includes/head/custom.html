@@ -3,11 +3,11 @@
 {%- comment -%}
 클래스로 불러오면 head에 안 넣어도 되지만 css, js 파일 전체를 index.md에 불러와야 해서 여기 코드 추가
 로컬에서는 안 넣어도 되는데 Jekyll 때문에...
-단 index.md에만 적용되어야 하므로 조건 걸고 들고오기
+단 index.md에만 적용되어야 하므로 home_assets 플래그 걸고 들고오기
 {%- endcomment -%}
 
 {%- assign home_url = site.baseurl | default: '' | append: '/' -%}
-{%- if page.url == home_url -%}
+{%- if page.home_assets == true -%}
   <link rel="stylesheet" href="{{ '/assets/css/index.css?v=20250817' | relative_url }}">
   <script src="{{ '/assets/js/index.js?v=20250817' | relative_url }}" defer></script>
 {%- endif -%}

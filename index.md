@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+home_assets: true
 ---
 
 <!-- 페이지 전용 CSS (전역 레이아웃에 이미 링크돼 있다면 이 줄은 생략 가능) -->
