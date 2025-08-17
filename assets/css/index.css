@@ -1,0 +1,187 @@
+/* =============================
+   0) 기본 리셋/레이아웃 정리
+   ============================= */
+html, body { height: 100%; margin: 0; }
+body { overflow-x: hidden; }
+
+/* 1) 이 페이지(홈)에서만 헤더/푸터를 투명 오버레이로 고정 */
+.masthead,
+.masthead .wrap,
+.masthead .greedy-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  z-index: 200;
+  padding: 1rem 1rem;
+}
+.page__footer {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  padding: 1rem 1rem;
+}
+/* 헤더/푸터 텍스트 대비 */
+.masthead, .masthead a,
+.page-footer, .page-footer a, .page__footer-copyright {
+  color: #fff !important;
+  text-shadow: 0 1px 10px rgba(0,0,0,.4);
+}
+
+/* 2) 본문 풀블리드 */
+.page, .page__inner-wrap, .page__content, .initial-content {
+  margin: 0 !important; padding: 0 !important; max-width: none !important; box-shadow: none !important;
+}
+.archive { margin: 0 !important; padding: 0 !important; }
+#page-title, .breadcrumbs, .sidebar { display: none !important; }
+
+/* =============================
+   3) 인터랙티브 sticky 씬
+   ============================= */
+.scroll-track {
+  height: 600vh;              /* 스크롤 진행 길이 */
+  position: relative;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-track::-webkit-scrollbar { display: none; }
+
+/* ★ sticky 캔버스는 100vh로 고정 (안정) */
+.sticky-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(#bee6ff,#71c9ff);
+}
+
+.stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;     /* ← 비율 고정 */
+  align-items: start;
+  padding-inline: clamp(12px, 3vw, 40px);   /* 좌우 여백 */
+  box-sizing: border-box;
+}
+
+/* 프레임(그림 영역) — 기존 유지 + 살짝 아래 보정은 유지 */
+.frame{
+  position: relative;
+  aspect-ratio: 9 / 16;
+  width: auto;
+  height: 175%;
+  margin: 0 auto;
+  overflow: hidden;
+  transform: translateY(5rem);
+}
+
+/* 씬 이미지는 겹쳐 고정 + 알파 전환만 */
+.scene{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+  transition: opacity 240ms ease !important;
+  opacity: 0;
+}
+#scene1 { opacity: 1; }
+
+/* ================= 텍스트 칼럼 조정 ================= */
+/* 중복 선언 제거 + 패딩/박스모델 명확화 + 오른쪽 여유 확대 */
+.sidecopy{
+  position: relative;
+  box-sizing: border-box;
+  padding-inline: clamp(12px, 2vw, 28px) clamp(16px, 3.5vw, 48px); /* left / right */
+  color: #fff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+  /* 텍스트가 화면 안에 들어오도록(스크롤 없이) 타이트한 세팅 */
+  /* 높이 한정 + 내용은 살짝 겹치게(아래 p 마진-조절)로 공간 절약 */
+  max-height: calc(100vh - 140px);  /* 헤더/프레임 여백 감안해 조절 값 */
+  overflow: visible;                 /* 스크롤 없음(원하신 조건) */
+}
+
+/* 텍스트 블록: 흐름 배치(겹침 연출은 문단 네거티브 마진으로) */
+.copy{
+  position: relative;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  /* 화면에 더 많이 들어오도록 폰트/행간/문단 간격을 타이트하게 */
+  font-size: clamp(13px, 1.7vmin, 18px);
+  line-height: 1.3;
+}
+#text1{ opacity: 1; }
+
+/* 문단 사이를 살짝 겹치게 해서 세로 길이를 줄임(과하면 -0.5em까지) */
+.copy p { margin: 0 0 0.35em; }
+.copy p + p { margin-top: -0.15em; }
+
+/* 긴 단어/URL로 칼럼이 밀려나지 않도록 */
+.sidecopy, .copy, .copy p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ================= 반응형(모바일: 2단 → 1단만) ================= */
+@media (max-width: 600px){
+  /* 조절용 변수 */
+  :root{
+    --m-frame-h: 60vh;   /* 모바일에서 프레임 높이 */
+    --m-gap: -0.15em;       /* 프레임과 텍스트 사이 간격 */
+  }
+
+  /* 1열: 위에 프레임, 아래에 텍스트 */
+  .stage{
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--m-frame-h) 1fr; /* 1행=프레임, 2행=텍스트 */
+    row-gap: var(--m-gap);                    /* 간격을 변수로 통제 */
+    align-content: start;
+    padding-inline: clamp(12px, 4vw, 24px);
+  }
+
+  /* 프레임은 1행에 꽉 채움 */
+  .frame{
+    grid-row: 1;
+    height: 100%;
+  }
+
+  /* 텍스트는 2행: 프레임 아래, 고정 간격으로 “따라붙음” */
+  .sidecopy{
+    grid-row: 2;
+    position: relative;   /* sticky 제거 */
+    top: auto;
+    /* 남는 높이만큼 고정 박스(원하면 auto로 풀고 내부 스크롤 사용) */
+    height: calc(100vh - var(--m-frame-h) - var(--m-gap));
+    max-height: calc(100vh - var(--m-frame-h) - var(--m-gap));
+    overflow: hidden;     /* 내부 스크롤 원하면 auto */
+    box-sizing: border-box;
+    padding: 12px 16px;   /* 오른쪽 여백 확실히 반영 */
+    border-radius: 12px;
+    font-size: clamp(14px, 2.4vmin, 18px);
+    line-height: 1.35;
+  }
+
+  /* 텍스트는 박스 안에서 페이드로 교체(제자리에서 바뀜) */
+  .copy{
+    position: absolute;   /* 겹치기 */
+    inset: 0;
+    opacity: 0;
+    transition: opacity 300ms ease;
+  }
+  #text1{ opacity: 1; }
+
+  /* 긴 단어로 밀림 방지 */
+  .sidecopy, .copy, .copy p{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
