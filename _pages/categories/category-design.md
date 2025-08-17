@@ -7,7 +7,7 @@ entries_layout: grid # posts layout
 <body oncontextmenu="return false;">
 <!-- Experiments and embodiment of thoughts -->
 <!-- Experiments and embodiment of thoughts -->
-Solutions with a clear purpose, refined by studies
+Solutions with a clear purpose refined by research
 
 {% include works-tag.html tag= site.tags %}
 

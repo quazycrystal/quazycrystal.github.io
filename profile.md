@@ -6,16 +6,18 @@ permalink: /profile/
 <!-- <span style = "font-size: 20px; font-weight: 700;"> 
 Jiwon Kim | Innovation Maker
 </span> -->
-<span style = "font-size: $type-size-4; font-weight: 600;"> 
-Contact  
-Email: quazycrystal@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/jiwonkim-art-audio-design)  
-[Github](https://github.com/quazycrystal)
-</span>
 
 <img src="/assets/img/jiwon-kim.png" style="width:300px; height:auto;" alt="Jiwon-Kim-profile"> 
 <br> 
 
+<span style = "font-size: 20px; font-weight: 700;"> 
+김지원 (Jiwon Kim)
+</span> 
+
+<span style = "font-size: $type-size-4; font-weight: 600;"> 
+Experience Maker 
+</span> 
+<br> 
 Born in Gumi, South Korea, 1999  
 Work in Daejeon / Seoul, South Korea  
 
@@ -28,7 +30,7 @@ Education
 Master's Course of Engineering, KAIST, Daejeon, South Korea
 </span>  
 September 2023 — August 2025  
-Industrial Design (GPA 3.9 / 4.3)
+Industrial Design (GPA 3.90 / 4.3)
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
@@ -129,7 +131,7 @@ Work experiences
 Partner researcher at ITRC, Daejeon, South Korea
 </span>  
 January 2025 — August 2025   
-Submitted a demo in SIGGRAPH 2025 (emerging technologies) about augmenting musical instruments using fiducial marker in XR  
+Introduced an XR-based music practice tool leveraging fiducial markers  
 Project name: "SpaceTop: Spatial Computing HCI Technology for Delivering XR Productivity Spaces Everywhere"
 <br>  
 
@@ -149,14 +151,13 @@ September 2023 - April 2025
 Identified pain points in virtual investment experiences and AI agent-assisted investment services through thematic coding  
 Delivered user scenarios and storyboards with drawing skills, presenting evaluation results
 <br>
-<br>
 
-<!-- <span style = "font-size: $type-size-4; font-weight: 600;"> 
+<span style = "font-size: $type-size-4; font-weight: 600;"> 
 Intern curator at [Alternative Space LOOP](http://altspaceloop.com/exhibitions/hcy-returnhome-2021), Seoul, South Korea
 </span>  
 June 2021 — August 2021  
 Artwork installation management, artist research, and press
-management.
+management
 
 <span style = "font-size: $type-size-4; font-weight: 600;"> 
 Art teacher at Hongik University Middle School, Seoul, South Korea
@@ -165,7 +166,7 @@ May 2021 — December 2021
 Introducing artist's works, demonstrating art using various
 medium, and engaging student's interest in art
 <br>
-<br> -->
+<br>
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Skills
@@ -187,7 +188,7 @@ Traditional and Digital
 <span style = "font-size: $type-size-4; font-weight: 600;">
 Programming 𒊹𒊹𒊹
 </span>  
-Python, Arduino(C++), and Github page programming experience (Ruby)
+Python, Arduino (C++), and Web programming experience (Ruby)
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">

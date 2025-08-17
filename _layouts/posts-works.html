@@ -28,7 +28,6 @@ layout: default
   -->
 
   {% assign posts = site.posts %}
-  <!-- {% assign posts = site.categories.Works %} -->
   {% assign current_post_url = page.url %}
 
   {% assign filtered_posts = posts | where_exp: "post", "post.url != current_post_url" %}
@@ -38,7 +37,6 @@ layout: default
   <div class="entries-{{ entries_layout }}">
     {% include documents-collection.html entries=shuffled_posts type=entries_layout %}
   </div>
-
 
   <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 </div>
