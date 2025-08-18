@@ -165,7 +165,7 @@ body { overflow-x: hidden; }
   .sidecopy{
     grid-row: 2;
     position: relative;   /* sticky 제거 */
-    top: -3em;
+    top: -5em;
     padding-inline: 0 1em !important;
     margin: 2em 2em !important;
 

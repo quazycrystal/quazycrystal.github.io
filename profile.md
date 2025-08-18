@@ -134,7 +134,7 @@ Seoul, South Korea
 <br> -->
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
-Work experiences
+Work Experiences
 </span>
 <br>
 
