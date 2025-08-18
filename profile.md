@@ -20,6 +20,9 @@ Experience Maker
 <br> 
 Born in Gumi, South Korea, 1999  
 Work in Daejeon / Seoul, South Korea  
+<br>
+
+<hr style="border: none; height: 1px; background-color: #929292 ;" />
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Education
@@ -40,6 +43,8 @@ March 2018 — February 2023
 Painting (GPA 4.12 / 4.5)
 <br>
 <br>
+
+<hr style="border: none; height: 1px; background-color: #929292 ;" />
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Courses
@@ -64,6 +69,8 @@ IOT computer programming and modeling short courses, Hongik University, Seoul, S
 August 2020 — September 2020
 <br>
 <br>
+
+<hr style="border: none; height: 1px; background-color: #929292 ;" />
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Awards
@@ -91,6 +98,8 @@ Awards
 <br>
 <br>
 
+<hr style="border: none; height: 1px; background-color: #929292 ;" /> 
+
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Publications
 </span>
@@ -102,6 +111,8 @@ Publications
 Dissertation in HCI Korea, Hongcheon, South Korea
 <br>
 <br>
+
+<hr style="border: none; height: 1px; background-color: #929292 ;" />
 
 <!-- <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Exhibitions
@@ -168,6 +179,8 @@ medium, and engaging student's interest in art
 <br>
 <br>
 
+<hr style="border: none; height: 1px; background-color: #929292 ;" /> 
+
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Skills
 </span>
@@ -186,35 +199,37 @@ Traditional and Digital
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-Programming 𒊹𒊹𒊹
+Programming 𒊹𒊹
 </span>  
-Python, Arduino (C++), and Web programming experience (Ruby)
+Python, Arduino (C++), and Web Programming Experience (Ruby)
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-Design Research 𒊹𒊹𒊹
+Design Research 𒊹𒊹
 </span>  
 Statistical analysis (SPSS, Python), Focus groups, Surveys, Thematic analysis, Usability testing, and Cultural probe 
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-3D modeling & 3D printing 𒊹𒊹𒊹
+3D modeling & 3D printing 𒊹𒊹
 </span>  
 Fusion 360, Rhino, and 3D MAX
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-Art tutoring & Art event management 𒊹𒊹𒊹
+Art tutoring & Art event management 𒊹𒊹
 </span>  
 Art teacher, Gallery intern, and Exhibiton management
 <br>
 
 <span style = "font-size: $type-size-4; font-weight: 600;">
-Audio engineering 𒊹𒊹
+Audio engineering 𒊹
 </span>  
 Ableton and MAX msp
 <br>
 <br>
+
+<hr style="border: none; height: 1px; background-color: #929292 ;" />
 
 <span style = "font-family: 'Greca', sans-serif; font-size: 20px; font-weight: 600;"> 
 Languages
@@ -224,6 +239,6 @@ Languages
 <span style = "font-size: $type-size-4; font-weight: 600;">
 Korean - Mother language  
 English 𒊹𒊹𒊹𒊹  
-Japanese (Speaking) 𒊹𒊹𒊹𒊹  
+Japanese (Speaking) 𒊹𒊹𒊹  
 Chinese 𒊹
 </span> 

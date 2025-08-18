@@ -143,11 +143,22 @@ body { overflow-x: hidden; }
     align-content: start;
   }
 
-  /* 프레임은 1행에 꽉 채움 */
-  .frame{
-    top: -3em;
-    grid-row: 1;
-    height: 200%;
+  /* 모바일 기본 */
+  .frame {
+    aspect-ratio: 9 / 16;
+    width: clamp(100%, 200%, 100vw);
+    overflow: hidden;
+    margin: 0 auto;
+    position: sticky;     /* 필요 시 */
+  }
+
+  .frame > img {
+    display: block;
+    width: 100%;
+    height: 100%;           /* ← 중요: 세로도 ‘박스에 맞춤’ */
+    object-fit: contain;    /* 잘리지 않게 전체 보이기 */
+    object-position: center;/* 가운데 정렬 */
+    margin-top: -10em;
   }
 
   /* 텍스트는 2행: 프레임 아래, 고정 간격으로 “따라붙음” */
