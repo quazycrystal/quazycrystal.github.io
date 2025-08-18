@@ -145,7 +145,7 @@ body { overflow-x: hidden; }
 
   /* 모바일 기본 */
   .frame {
-    aspect-ratio: 9 / 16;
+    aspect-ratio: 16 / 9;
     width: clamp(100%, 200%, 100vw);
     overflow: hidden;
     margin: 0 auto;
