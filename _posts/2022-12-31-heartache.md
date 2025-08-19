@@ -13,7 +13,7 @@ tags:
 < Heartache > uses the human body as a metaphor to illustrate the process of alleviating psychological pressure around the heart through the physical activity of running. While running reduces psychological burdens, it is breathless and strained. Yet a sense of refreshment prevails, and the strengthened area near the heart finds comfort after the act.
 <br>
 
-The transparent dome on the top of the sculpture represents the head. It encloses [< Fragment of memories >](https://quazycrystal.github.io/works/fragment-of-memories)  placed on artificial grass alongside the sculpture inspired by the womb—once the most comfortable home. A life-sized aluminum frame and circular wooden platform represent the torso, which is easily movable with wheels.
+The transparent dome on the top of the sculpture represents the head. It encloses [< Fragment of memories >](https://quazycrystal.github.io/art/fragment-of-memories)  placed on artificial grass alongside the sculpture inspired by the womb—once the most comfortable home. A life-sized aluminum frame and circular wooden platform represent the torso, which is easily movable with wheels.
 <br>
 
 A red-and-blue, flame-shaped balloon with painted details at the center symbolizes the heart, while the kinetic, bone-like air pump represents the legs. The balloon inflates when viewers engage with the air pump like the heart expands and strengthens during running. Stepping on the air pump mirrors the strenuous motion of pushing against the ground while running.
