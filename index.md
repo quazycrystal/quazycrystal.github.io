@@ -26,7 +26,7 @@ home_assets: true
         ○ ● ○
         <h3>Design as a Response to Human Needs</h3>
         <p>Studying industrial design was a way to turn artistic vision into practical solutions for a better society. 
-        The <a href="{{ '/design/oxynizer/' | relative_url }}" class="link-top">Oxynizer: Sustainable & Non-electric Oxygen Generator</a> project was a turning point, revealing how design address urgent needs and still be accessible to a wide range of communities.</p>
+        The <a href="{{ '/design/oxynizer' | relative_url }}" class="link-top">Oxynizer: Sustainable & Non-electric Oxygen Generator</a> project was a turning point, revealing how design address urgent needs and still be accessible to a wide range of communities.</p>
         </div>
         <div class="copy" id="text3">
           ○ ○ ●
