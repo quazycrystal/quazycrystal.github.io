@@ -19,13 +19,14 @@ home_assets: true
         <div class="copy" id="text1">
         ● ○ ○ 
         <h3>Fine Art to Human Computer Interaction</h3>
-        <p> My creative journey began in field of art, focusing on sound and kinetic  installations. However, it became clear that artistic practice does not always translate into visible contributions to society.
+        <p> My creative journey began in field of <a href="{{ '/art/' | relative_url }}" class="link-top">art</a>, focusing on sound and kinetic  installations. However, it became clear that artistic practice does not always translate into visible contributions to society.
         </p>
         </div>
         <div class="copy" id="text2">
         ○ ● ○
         <h3>Design as a Response to Human Needs</h3>
-        <p>Studying industrial design was a way to turn artistic vision into practical solutions for a better society. <em> The Oxynizer project </em> was a turning point, revealing how design address urgent needs and still be accessible to a wide range of communities.</p>
+        <p>Studying industrial design was a way to turn artistic vision into practical solutions for a better society. 
+        The <a href="{{ '/design/oxynizer/' | relative_url }}" class="link-top">Oxynizer: Sustainable & Non-electric Oxygen Generator</a> project was a turning point, revealing how design address urgent needs and still be accessible to a wide range of communities.</p>
         </div>
         <div class="copy" id="text3">
           ○ ○ ●
