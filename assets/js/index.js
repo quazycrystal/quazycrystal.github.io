@@ -23,9 +23,9 @@
   }
 
   // 기존 알파 함수(장면과 동일 타이밍)
-  function alphaScene1(p){ const o = ease01(invLerp(0.2, 0.45, p)); return clamp(1 - o, 0, 1); }
-  function alphaScene2(p){ const i = ease01(invLerp(0.3, 0.55, p)); const o = ease01(invLerp(0.6, 0.85, p)); return clamp(i*(1-o),0,1); }
-  function alphaScene3(p){ return ease01(invLerp(0.6, 0.85, p)); }
+  function alphaScene1(p){ const o = ease01(invLerp(0.2, 0.4, p)); return clamp(1 - o, 0, 1); }
+  function alphaScene2(p){ const i = ease01(invLerp(0.3, 0.5, p)); const o = ease01(invLerp(0.7, 0.9, p)); return clamp(i*(1-o),0,1); }
+  function alphaScene3(p){ return ease01(invLerp(0.7, 0.9, p)); }
 
 function update(){
   const p  = getProgress();

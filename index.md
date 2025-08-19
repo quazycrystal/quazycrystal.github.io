@@ -19,19 +19,25 @@ home_assets: true
         <div class="copy" id="text1">
         ● ○ ○ 
         <h3>Fine Art to Human Computer Interaction</h3>
-        <p> My creative journey began in field of <a href="{{ '/art/' | relative_url }}" class="link-top">art</a>, focusing on sound and kinetic  installations. However, it became clear that artistic practice does not always translate into visible contributions to society.
+        <p> My creative journey began in field of <a href="{{ '/art/' | relative_url }}" class="link-top" style="color: #0060ffff;">art</a>, focusing on sound and kinetic  installations. However, it became clear that artistic practice does not always translate into visible contributions to society.
+        <br>
+        <br>
+        <em style="color: #d8f0ffff;">▼ Scroll Down ▼</em>
         </p>
         </div>
         <div class="copy" id="text2">
         ○ ● ○
         <h3>Design as a Response to Human Needs</h3>
         <p>Studying industrial design was a way to turn artistic vision into practical solutions for a better society. 
-        The <a href="{{ '/design/oxynizer' | relative_url }}" class="link-top">Oxynizer: Sustainable & Non-electric Oxygen Generator</a> project was a turning point, revealing how design address urgent needs and still be accessible to a wide range of communities.</p>
+        The <a href="{{ '/design/oxynizer' | relative_url }}" class="link-top" style="color: #0060ffff;">Oxynizer: Sustainable & Non-electric Oxygen Generator</a> project was a turning point, revealing how design inclusively respond to urgent needs.
+        <br>
+        <br>
+        <em style="color: #d8f0ffff;">▼ Scroll Down ▼</em></p>
         </div>
         <div class="copy" id="text3">
           ○ ○ ●
         <h3>Design for Social Impact</h3>
-        <p>Today, my practice focuses on creating purposeful interactive systems by integrating craftsmanship with human-centered design. My aim is to bridge artistic exploration with practical impact, advancing designs rooted in sustainability and inclusivity.</p>
+        <p>Today, my practice focuses on creating purposeful systems by integrating craftsmanship with human-centered design. My aim is to bridge artistic exploration with practical impact, advancing designs rooted in inclusivity.</p>
         </div>
       </aside>
     </div>
