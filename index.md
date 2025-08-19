@@ -19,19 +19,18 @@ home_assets: true
         <div class="copy" id="text1">
         ● ○ ○ 
         <h3>Fine Art to Human Computer Interaction</h3>
-        <p> My creative journey began in fine <a href="{{ '/art/' | relative_url }}">art</a>, focusing on sound installations that encouraged audiences to explore body movement and space perception. However, it became clear that artistic practice does not always translate into tangible contributions to society.
+        <p> My creative journey began in field of art, focusing on sound and kinetic  installations. However, it became clear that artistic practice does not always translate into visible contributions to society.
         </p>
         </div>
         <div class="copy" id="text2">
         ○ ● ○
-        <h3>The Importance of Purposeful Design</h3>
-          <p>
-          The motivation to contribute society led to a pursuit of industrial design, as a way to channel artistic capabilities toward practical solutions to society. <a href="{{ '/design/oxynizer/' | relative_url }}">The Oxynizer project</a> was a turning point, demonstrating how design can address urgent life needs and remain accessible to diverse communities.</p>
+        <h3>Design as a Response to Human Needs</h3>
+        <p>Studying industrial design was a way to turn artistic vision into practical solutions for a better society. <em> The Oxynizer project </em> was a turning point, revealing how design address urgent needs and still be accessible to a wide range of communities.</p>
         </div>
         <div class="copy" id="text3">
           ○ ○ ●
-          <h3>Design for Social Impact</h3>
-          <p>Today, my practice is to create interactive systems that are both innovative and purposeful by integrating craftsmanship and human-centered design methods. The aim is to bridge artistic exploration with practical impact, advancing designs grounded in sustainability and inclusivity.</p>
+        <h3>Design for Social Impact</h3>
+        <p>Today, my practice focuses on creating purposeful interactive systems by integrating craftsmanship with human-centered design. My aim is to bridge artistic exploration with practical impact, advancing designs rooted in sustainability and inclusivity.</p>
         </div>
       </aside>
     </div>
