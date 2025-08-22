@@ -2,8 +2,8 @@
 main:
 # - title: "Home"
 #   url: /
-  - title: "Profile"
-    url: /profile/
+  - title: "CV"
+    url: /cv/
   - title: "Design"
     url: /design/
   - title: "Art"
