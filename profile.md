@@ -1,7 +1,7 @@
 ---
-title: Profile
+title: CV
 layout: posts
-permalink: /profile/
+permalink: /cv/
 ---
 <!-- <span style = "font-size: 20px; font-weight: 700;"> 
 Jiwon Kim | Innovation Maker
