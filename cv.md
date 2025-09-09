@@ -12,7 +12,7 @@ permalink: /cv/
     // 1) /cv/ → / (홈) 으로 히스토리 치환
     history.replaceState(null, "", "/");
     // 2) PDF로 이동
-    location.href = "/assets/pdfs/cv.pdf#toolbar=1";
+    location.href = "/assets/img/JiwonKim_CV_25-09-09.pdf#toolbar=1";
   </script>
   <noscript>
     <meta http-equiv="refresh" content="0; url=/assets/pdfs/cv.pdf">
