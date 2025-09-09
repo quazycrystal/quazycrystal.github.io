@@ -14,11 +14,8 @@ permalink: /cv/
     // 2) PDF로 이동
     location.href = "/assets/img/JiwonKim_CV_25-09-09.pdf#toolbar=1";
   </script>
-  <noscript>
-    <meta http-equiv="refresh" content="0; url=/assets/pdfs/cv.pdf">
-  </noscript>
 </head>
 <body>
-  <p>Open CV (PDF)<a href="/assets/pdfs/cv.pdf"></a>.</p>
+  <p>Open CV (PDF)<a href="/assets/img/JiwonKim_CV_25-09-09.pdf#toolbar=1"></a>.</p>
 </body>
 </html>
