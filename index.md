@@ -22,9 +22,9 @@ home_assets: true
         <p> My creative journey began in field of <a href="{{ '/art/' | relative_url }}" class="link-top" style="color: #0060ffff;">art</a>, focusing on sound and kinetic  installations. However, it became clear that artistic practice does not always translate into visible contributions to society. 
         <br>
         <br>
-        ∇
+        <span style="color: #cdebffff;">▼</span>
         <br>
-        ∇
+        <span style="color: #cdebffff;">▼</span>
         </p>
         </div>
         <div class="copy" id="text2">
@@ -34,9 +34,9 @@ home_assets: true
         The <a href="{{ '/design/oxynizer' | relative_url }}" class="link-top" style="color: #0060ffff;">Oxynizer: Sustainable & Non-electric Oxygen Generator</a> project was a turning point, revealing how design inclusively respond to urgent needs. 
         <br>
         <br>
-        ∇
+        <span style="color: #cdebffff;">▼</span>
         <br>
-        ∇
+        <span style="color: #cdebffff;">▼</span>
         </p>
         </div>
         <div class="copy" id="text3">
