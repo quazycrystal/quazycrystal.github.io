@@ -12,10 +12,10 @@ permalink: /cv/
     // 1) /cv/ → / (홈) 으로 히스토리 치환
     history.replaceState(null, "", "/");
     // 2) PDF로 이동
-    location.href = "/assets/img/JiwonKim_CV_25-09-09.pdf#toolbar=1";
+    location.href = "/assets/img/JiwonKim_CV_25-11-14.pdf#toolbar=1";
   </script>
 </head>
 <body>
-  <p>Open CV (PDF)<a href="/assets/img/JiwonKim_CV_25-09-09.pdf#toolbar=1"></a>.</p>
+  <p>Open CV (PDF)<a href="/assets/img/JiwonKim_CV_25-11-14.pdf#toolbar=1"></a>.</p>
 </body>
 </html>
