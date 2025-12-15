@@ -2,7 +2,7 @@
 title: Quazycoding (2025)
 layout: none
 permalink: works/quazycoding
-categories: "Coding"
+categories: "Programming"
 header:
     teaser: /assets/img/2025-quazycoding/a.jpeg
 tags:
