@@ -1,8 +1,8 @@
 ---
 title: "Heartache (2022)"
-permalink: /art/heartache
+permalink: works/heartache
 layout: posts-works
-categories: "Art"
+categories: "Sculpture"
 header:
     teaser: /assets/img/2022-heartache/a.jpeg
 tags:

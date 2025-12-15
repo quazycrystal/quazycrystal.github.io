@@ -4,9 +4,7 @@ main:
 #   url: /
   - title: "CV"
     url: /cv/
-  - title: "Design"
-    url: /design/
-  - title: "Art"
-    url: /art/
+  - title: "Works"
+    url: /works/
   - title: <i class="fa-duotone fa-solid fa-magnifying-glass"></i>
     url: /search/

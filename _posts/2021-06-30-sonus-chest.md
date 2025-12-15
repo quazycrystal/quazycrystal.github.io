@@ -1,8 +1,8 @@
 ---
 title: "Sonus chest (2021)"
-permalink: /art/sonus-chest
+permalink: works/sonus-chest
 layout: posts-works
-categories: "Art"
+categories: "Interface"
 header:
     teaser: /assets/img/2021-sonus-chest/a.jpeg
 tags:
