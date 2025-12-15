@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let totalLength = 0;
 
     if (mobileMode) {
-        totalLength = (hubList.length * hubDistance) + 300; 
+        totalLength = (hubList.length * hubDistance) + 500; 
         fitScale = height / totalLength;
     } else {
         totalLength = (hubList.length * hubDistance) + 400; 
