@@ -9,7 +9,8 @@
     {% include head/custom.html %}
   </head>
 
-  <body oncontextmenu="return false;", class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+  <body oncontextmenu="return false;", ondragstart="return false;" 
+  onselectstart="return false;" class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
@@ -30,7 +31,7 @@
         {% include_cached footer.html %}
       </footer>
     </div>
-
+    
     {% include scripts.html %}
   </body>
 </html>
