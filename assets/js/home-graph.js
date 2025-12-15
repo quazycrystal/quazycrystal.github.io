@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let totalLength = 0;
 
     if (mobileMode) {
-        totalLength = (hubList.length * hubDistance) + 500; 
+        totalLength = (hubList.length * hubDistance) + 400; 
         fitScale = height / totalLength;
     } else {
         totalLength = (hubList.length * hubDistance) + 400; 
@@ -111,9 +111,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const simulation = d3.forceSimulation(graphData.nodes)
         .force("link", d3.forceLink(graphData.links)
             .id(d => d.id)
-            .distance(d => d.isSpine ? hubDistance : (mobileMode ? 75 : 100))
+            .distance(d => d.isSpine ? hubDistance : (mobileMode ? 100 : 75))
         )
-        .force("charge", d3.forceManyBody().strength(mobileMode ? -750 : -750))
+        .force("charge", d3.forceManyBody().strength(mobileMode ? -300 : -100))
         .force("center", d3.forceCenter(width / 2, height / 2))
         .force("collide", d3.forceCollide().radius(d => (d.size * ratio) * 0.75).iterations(2));
 
