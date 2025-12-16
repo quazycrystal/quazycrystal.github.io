@@ -4,7 +4,7 @@ permalink: works/lime-light
 layout: posts-works
 categories: "Painting"
 header:
-    teaser: /assets/img/2023-lime-light/a.jpeg
+    teaser: /assets/img/2023-lime-light/1.jpg
 tags:
 --- 
 

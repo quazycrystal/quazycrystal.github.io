@@ -4,7 +4,7 @@ permalink: works/pulse-ripple
 layout: posts-works
 categories: "Interface"
 header:
-    teaser: /assets/img/2023-pulse-ripple/a.jpeg
+    teaser: /assets/img/2023-pulse-ripple/1.jpg
 tags:
 ---
 ## Pulse ripple

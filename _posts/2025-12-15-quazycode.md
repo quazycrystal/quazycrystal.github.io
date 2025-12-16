@@ -1,10 +1,10 @@
 ---
-title: Quazycoding (2025)
+title: Quazycode (2025)
 layout: none
-permalink: works/quazycoding
+permalink: works/quazycode
 categories: "Programming"
 header:
-    teaser: /assets/img/2025-quazycoding/a.jpeg
+    teaser: /assets/img/2025-quazycode/1.jpg
 tags:
 ---
 <!doctype html>
@@ -17,13 +17,13 @@ tags:
     // 이 부분이 필요 없다면 이 줄을 주석 처리하거나 삭제해도 됩니다.
     history.replaceState(null, "", "/");
     // 2) **전체 URL**을 사용하여 원하는 웹페이지로 이동
-    location.href = "https://quazycrystal.github.io/quazycoding/";
+    location.href = "https://quazycrystal.github.io/quazycode/";
   </script>
 </head>
 <body>
   <p>
     Open Quazycoding page
-        <a href="https://quazycrystal.github.io/quazycoding/"></a>
+        <a href="https://quazycrystal.github.io/quazycode/"></a>
   </p>
 </body>
 </html>

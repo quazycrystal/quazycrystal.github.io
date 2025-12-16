@@ -4,7 +4,7 @@ permalink: works/dark-light
 layout: posts-works
 categories: "Painting"
 header:
-    teaser: "/assets/img/2023-dark-light/a.jpeg"
+    teaser: "/assets/img/2023-dark-light/1.jpg"
 tags:
 --- 
 

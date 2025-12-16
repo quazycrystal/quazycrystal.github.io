@@ -4,7 +4,7 @@ permalink: works/sonus-dasyatis
 layout: posts-works
 categories: "Interface"
 header:
-    teaser: /assets/img/2022-sonus-dasyatis/a.jpeg
+    teaser: /assets/img/2022-sonus-dasyatis/1.jpg
 tags:
 - Audio
 - Arduino

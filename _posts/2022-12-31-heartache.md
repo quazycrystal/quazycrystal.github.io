@@ -4,7 +4,7 @@ permalink: works/heartache
 layout: posts-works
 categories: "Sculpture"
 header:
-    teaser: /assets/img/2022-heartache/a.jpeg
+    teaser: /assets/img/2022-heartache/1.jpg
 tags:
 - Kinetic Art
 ---

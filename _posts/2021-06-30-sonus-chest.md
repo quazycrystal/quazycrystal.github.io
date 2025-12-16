@@ -4,7 +4,7 @@ permalink: works/sonus-chest
 layout: posts-works
 categories: "Interface"
 header:
-    teaser: /assets/img/2021-sonus-chest/a.jpeg
+    teaser: /assets/img/2021-sonus-chest/1.jpg
 tags:
 ---
 ## Sonus chest

@@ -4,7 +4,7 @@ permalink: works/fragment-of-memories
 layout: posts-works
 categories: "Sculpture"
 header:
-    teaser: /assets/img/2022-fragment-of-memories/d.jpeg
+    teaser: /assets/img/2022-fragment-of-memories/1.jpg
 tags:
 ---
 ## Fragment of memories
