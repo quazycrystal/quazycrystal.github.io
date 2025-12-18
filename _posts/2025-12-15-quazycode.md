@@ -7,6 +7,7 @@ header:
     teaser: /assets/img/2025-quazycode/1.jpg
 tags:
 ---
+
 <!doctype html>
 <html lang="en">
 <head>
