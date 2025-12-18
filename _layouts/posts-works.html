@@ -27,11 +27,26 @@ layout: default
   source: {{ site.source }}
   -->
 
-  {% assign posts = site.posts %}
-  {% assign current_post_url = page.url %}
+{% assign posts = site.posts %}
 
-  {% assign filtered_posts = posts | where_exp: "post", "post.url != current_post_url" %}
-  {% assign shuffled_posts = filtered_posts | sample: 4 %}
+{% comment %} 1. 빈 배열을 하나 만듭니다 {% endcomment %}
+{% assign filtered_posts = "" | split: "" %}
+
+{% comment %} 2. 루프를 돌며 조건을 체크합니다 {% endcomment %}
+{% for post in posts %}
+  {% if post.url != current_post_url %}
+    {% comment %} 'None' 태그가 포함되지 않은 경우에만 배열에 추가 {% endcomment %}
+    {% unless post.tags contains 'None' %}
+      {% assign filtered_posts = filtered_posts | push: post %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 3. 필터링된 결과에서 4개를 무작위로 뽑습니다 {% endcomment %}
+{% assign shuffled_posts = filtered_posts | sample: 4 %}
+
+{% comment %} 4. 현재 포스트 URL을 설정 {% endcomment %}
+{% assign current_post_url = page.url %}
 
   {% assign entries_layout = page.entries_layout | default: 'grid' %}
   <div class="entries-{{ entries_layout }}">
